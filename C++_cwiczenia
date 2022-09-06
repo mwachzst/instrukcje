@@ -14,3 +14,18 @@ Podpowiedź: Załóżmy, że na zajęcia uczęszcza 8 mężczyzn i 12 kobiet. Ra
 - 1 szklanka masła
 - 2,75 szklanki mąki
 Dzięki temu przepisowi można upiec 48 ciasteczek. Zaprojektuj program, który będzie pytał użytkownika, ile ciasteczek chce upiec, a następnie wyświetli, ile szklanek każdego ze składników będzie potrzebował użytkownik, aby upiec wskazaną liczbę ciasteczek.
+
+                                                                           Moduły (void)
+                                                                           _____________
+6. Zaprojektuj program skłądający się z modułów, który będzie prosił użytkownika o wprowadzenie miesięcznych kosztów związanych z posiadaniem samochodu, takich jak rata kredytu, składka ubezpieczeniowa, paliwo, olej, opony i serwis. Program powinien wyświetlać sumę tych wydatków, a także ksozt roczny.
+
+7. Stadion ejst podzielony na trzy strefy. Bilety w strefie A kosztują 70 złotych, w strefie B kosztują 55 złotych, a w strefie C - 32 złotych. Zaprojektuj program składający się z modułów, który będzie prosił użytkownika o wprowadzneie liczby sprzedanych biletów w każdej ze stref, a następnie wyświetli całkowity wpływ ze sprzedaży biletów
+
+8. Zaprojektuj program składający się z modułów, który będzie obliczał i wyświetlał wskaźnik masy ciała (BMI) użytkownika. Wskaźnij BMI jest często wykorzystywany, aby określić, czy dana osoba ma niedowagę czy nadwagę. Wzór na wskaźnik BMI wygląda następująco: BMI = masa * wzrost^2
+
+9. Firma zarejestrowana w Stanach Zjednoczonych zajmująca sięsprzedażą detaliczną musi raz w miesiącu sporządzać raport sprzedaży zawierający wartość sprzedaży, wartość podatku stanowego i wartość podatku w hrabstwie. Stawka podatku stanowego wynosi 4%, a podatku w hrabstwie - 2%. Zaprojektuj program składający się z modułów, który będzie prosił użytkownika o wprowadzenie wartości miesięcznej sprzedaży. Na jej podstawie program powinien obliczyć i wyświetlić następujące wartości:
+- wartość podatku naliczonego w hrabstwie;
+- wartość podatku stanowego;
+- całkowita wartość podatku (suma obu podatków).
+
+
