@@ -1,4 +1,11 @@
                                                             Dane wejściowe, przetwarzanie i dane wyjściowe
 1. Jeśli umiarkowanie aktywna osoba zmniejsza ilość przyjmowanych kalorii o 500 dziennie, może stracić około 2 kilogramów miesięcznie. Napisz program, w którym użytkownik ma wprowadzić swoją początkową wagę, a następnie program wyświetli tabelę pokazującą, jaka powinna być oczekiwania waga na koniec kważdego miesiąca przez następne 6 miesięcy, o ile użytkownik pozostnie na tej diecie.
 
-2. a
+2. Pewna osoba płaci co miesiąc określoną kwotę jako opłatę za samochód. Zaprojektuj program, który poprosi użytkownika o podanie comiesięcznej kwoty i liczby miesięcy, w których była dokonywana wpłata. Program powinien wyświetlić całkowitą kwotę, którą zapłacił użytkownik.
+
+3. W jednym opakowaniu jest 40 ciasteczek. Na opakowaniu jest informacja, że w śodku znajduje się 10 porcji, a jedna porcja to 300 kalori.. Zaprojektuj program, który będzie pytał użytkownika, ile ciasteczek zjadł, i wyświetli liczbę spożytych kalorii.
+
+4. Zaprojektuj program, który będzie prosił użytkownika o wprowadzenie liczby kobiet i mężczyzn uczęszcających na zajęcia. Program powinien następnie wyświetlić, jaki jest procent kobiet i mężczyzn na zajęciach.
+Podpowiedź: Załóżmy, że na zajęcia uczęszcza 8 mężczyzn i 12 kobiet. Razem jest więc 20 studentów. Procentowy udział mężczyzn możemy obliczyć jako 8/20 = 0,4 czyli 40%. Procentoway udział kobiet możemy obliczyć jako 12/20 = 0,6 czyli 60%.
+
+5.
