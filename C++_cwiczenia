@@ -120,3 +120,49 @@ Grudzień ma 31 dni.
 W programie powinny występować dwie tablice równoległe: 12-elementowa taliva zawierająca ciąg znaków zainicjalizowana nazwami miesięcy i 12-elementowa tablica liczb całkowitych Integer zainicjalizowana liczbą dni w poszczególnych miesiącach. Aby wyświetlić wynik, prześledź za pomocą pętli obie tablice, pobierając z nich nazwę miesiąca i liczbę dni.
 
 30. Zaprojektuj program, w którym wykorzystane będą dwie tablice równoległe: tablica ciągów znaków o nazwie people zainicjalizowana imionami siedmiorga Twoich przyjaciół i tablica ciągów znaków o nazwie phoneNumbers zainicjalizowana numerami telefonów Twoich przyjaciół. Program powinien umożliwić użytkownikowi wprowadzenie umienia, a następnie wyszukać je w tablicy people. Jeżeli imię zostanie odnalezione, program powinien odczytać numer telefonu danej osoby z tablicy phoneNumbers i wyświetlić go. Jeżeli dana osoba nie zostanie odnaleziona w tablicy people, program powinien o tym poinformować za pomocą odpowiedniego komunikatu. 
+
+31.Zaprojektuj program, który będzie tworzył tablicę dwuwymiarową z liczbami całkowitymi składającą sięz 7 wierszy i 7 kolumn. Program powinien w każdym elemencie tablicy umieścić liczbę losową, a następnie przeszukiwać tablicę pod kątem punktów siodłowych. Punkt siodłowy to element, którego wartość jest równa wszystkim innym wartościom w tym samym wierszu lub od nich mniejsza i jest równa innym wartościom w tej samej kolumnie lub do nich większa. Program powinien wyświetlać wartości wszystkich punktów siodłowych znalezionych w tablicy (jeśli takie istnieją).
+
+                                                                     Przetwarzanie tekstu
+                                                                     ____________________
+32. Zaprojektuj program, który poprosi użytkownika o wprowadzenie ciągu znaków. Program powinien wyświetlić liczbę spółgłosek i liczbę samogłosek występujących w ciągu znaków. 
+
+33. Zaprojektuj program, który poprosi użytkownika o wprowadzenie ciągu znaków skłądającego się z ciągu cyfr. Program powinien wyświetlić sumę wszystkich cyfr w ciągu znaków. Przykładowo jeśli użytkownik wprowadzi ciąg 2514, program powinien wyświetlić liczbę 12, czyli sumę cyfr 2,5,1 i 4 (aby zamienić znak na liczbę całkowitą, skorzystaj z funkcji bibliotecznej "stoi")
+
+34. Zaprojektuj program, który poprosi użytkownika o wprowadzenie ciągu znaków, a następnie wyświetli znak, który występuje w ciągu najczęściej.
+
+35. Wiele amerykańskich firm prezentuje swój numer telefonu w następujący sposób: 555-GET-FOOD. Dzięki temu klientom łatwiej jest go zapamiętać. W tradycyjnym telefonie do każdej cyfry są przypisane litery, według następującego klucza:
+A,B,C = 2
+D,E,F = 3
+G,H,I = 4
+J,K,L = 5
+M,N,O = 6
+P,Q,R,S = 7
+T,U,V = 8
+W,X,Y,Z = 9
+
+Zaprojektuj program który poprosi użytkownika o wprowadzenie 10-znakowego numeru telefonu, w formacie XXX-XXX-XXXX. Program powinien następnie wyświetlić numer telefonu, w którym litery zostanązastąpione odpowiadającym ich cyfrom. PRzykłądowo jeśli użytkownik wprowadzi numer telefonu 555-GET-FOOD, program powinien wyświetlić 555-438-3663.
+
+36. Zaprojektuj program, który poprosi użytkownika o wprowadzenie hasła, a następnie przeanalizuje to hasło pod kątem następujących słąbych punktów:
+- składa się z mniej niż 8 znaków
+- nie zawiera co najmniej jednej dużej litery i jednej małej litery
+- nie zawiera co najmniej jednej cyfry
+- nie zawiera co najmniej jednego znaku specjalnego (znaku, który nie jest literą ani cyfrą)
+- jest ciągiem kolejnych wielkich liter (takich jak ABCDE)
+- jest ciągiem kolejnych małych liter (takich jak abcde)
+- jest sekwencją kolejnych cyfr numerycznych (takich jak 12345)
+- jest sekwencją powtarzających się znaków (np. ZZZZZ lub 55555)
+
+                                                                        Obsługa plików
+                                                                        ______________
+ 37. Załóżmy, że na dysku znajduje sięplik o nazwie numery.txt, w którym zapisany jest szereg liczb. Zaprojektuj program, który wyświetli wszystkie liczbe zapisane w tym pliku.
+ 
+ 38. Załóżmy, że na dysku znajduje się plik o nazwie imiona.txt, w którym zapisany jest szereg imion (jako ciągi znaków string). Zaprojektuj program, który wyświetli liczbę imion zapisanych w tym pliku. (Otwórz plik i odczytaj z niego po kolei każdy ciąg znaków. Po odczytaniu każdego ciągu zinkrementuj zmienną licznikową. Pod oczytaniu ostatniego ciągu znaków zmienna licznikowa będzie równa liczbie imion zapisanych w pliku).
+ 
+ 39. Załóżmy, że na dysku znajduje się plik o nazwie liczby.txt, w którym zapisany jest szereg liczb całkowitych. Zaprojektuj program, który określi wartość największej z liczb zapisanych w tym pliku.
+ 
+ 40. Klub sportowy Springfork Amateur organizuje w każdy weekend zawody. Prezes klubu poprosił Cię o zaprojektowanie dówch programów:
+ a) Program, który umożliwi wprowadzenie nazwiska i wyniku każdego zawodnika, a następnie zapisze te dane jako rekordy w pliku golf.txt
+ b) Program, który odczyta rekordy zapisane w pliku golf.txt a następnie je wyświetli.
+ 
+ 
