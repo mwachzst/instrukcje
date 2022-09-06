@@ -28,4 +28,19 @@ Dzięki temu przepisowi można upiec 48 ciasteczek. Zaprojektuj program, który 
 - wartość podatku stanowego;
 - całkowita wartość podatku (suma obu podatków).
 
+                                                                 Struktury warunkowe i logika boolowska
+                                                                 ______________________________________
+                                                                 
+10. Zaprojektuj program, który będzie prosiłużytkownika o wprowadzenie liczby z przedziału 1-10. Program powinien następnie wyświetlić tę liczbę zapisaną cyframi rzymskimi. Jeśli wprowadzona przez użytkownika liczba jest spoza przedziału, program powinien wyświetlić komunikat o błędzie.
 
+11. Pole powierzchni prostokąte jest równe iloczynowi długości jego boków. Zaprojektuj program, który będzie prosił użytkownika o wprowadzenie długości boków dwóch prostokątów. Program powinien poinformować użytkownika, który z prostokątów ma większe pole powierzchni lub czy pola powierzhni są takie same.
+
+12. Data 10 czerwca 1960 jest wyjątkowa, ponieważ można ją zapisać w takiej formie, że w wyniku pomnożenia dnia i miesiąca otrzymamy rok: 10/6/60. Zaprojektuj program, który będzie prosił użytkownika o wprowadzenie dnia, miesiąca (jako liczby) i roku (w postaci dwucyfrowej). Program powinien sprawdzić, czy iloczyn dnia i miesiąca będzie równy rokowi. Jeśli tak, powinien się wyświetlić komunikat informujący, że data jest magiczna. W przeciwnym razie powinien się wyświetlić komunikat, że data nie jest magiczna.
+
+13. Kolor czerwony, niebieski i żółty nazywane są kolorami podstawowymi, ponieważ nie da się ich uzyskać, mieszając ze sobą inne kolory. Mieszając kolory podstawowe, uzyskamy kolory pochodne w następujący sposób:
+- w wyniku wymieszania kolorów czerwonego i niebieskiego otrzymamy kolor fioletowy;
+- w wyniku wymieszania kolorów czerwonego i żółtego otrzymamy kolor pomarańczowy;
+- w wyniku wymieszania kolorów niebieskiego i żółtego otrzymamy kolor zielony.
+Zaprojektuj program, który będzie prosił użytkownika o wprowadzenie nazw dówch kolorów podstawowych. Jeżeli użytkownik wprowadzi inny tekst niż "czerwony", "niebieski" lub "żółty" (nie ma konieczności stosowania typu danych "string", można zadeklarować kolory jako liczby całkowite i przedstawić je w instrukcji programu dla użytkownika) program powinien wyświetlić komunikat błędu. W przeciwnym razie program powinien wyświetlić nazwę koloru powstałego w wyniku wymieszania dwóch wprowadzonych kolorów.
+
+14. Stwórz grę, która będzie zliczała monety 1-, 2-, 5-, 10- i 50-groszowe i sprawdzała, czy ich suma daje jedną złotówkę. Program powinien poprosić użytkownika, aby wprowadził po kolei liczbę monet 1-groszowych, 2-groszowych, 5-groszowych, 10-groszowych i 50-groszowych. Jeżeli suma monet będzie równa jednej złotówce, program powinien pogratulować użytkownikowi wygranej. W przeciwnym razie program powinien wyświetlić komunikat informujący, czy suma byłą mniejsza czy większa od złotówki.
