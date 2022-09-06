@@ -44,3 +44,61 @@ Dzięki temu przepisowi można upiec 48 ciasteczek. Zaprojektuj program, który 
 Zaprojektuj program, który będzie prosił użytkownika o wprowadzenie nazw dówch kolorów podstawowych. Jeżeli użytkownik wprowadzi inny tekst niż "czerwony", "niebieski" lub "żółty" (nie ma konieczności stosowania typu danych "string", można zadeklarować kolory jako liczby całkowite i przedstawić je w instrukcji programu dla użytkownika) program powinien wyświetlić komunikat błędu. W przeciwnym razie program powinien wyświetlić nazwę koloru powstałego w wyniku wymieszania dwóch wprowadzonych kolorów.
 
 14. Stwórz grę, która będzie zliczała monety 1-, 2-, 5-, 10- i 50-groszowe i sprawdzała, czy ich suma daje jedną złotówkę. Program powinien poprosić użytkownika, aby wprowadził po kolei liczbę monet 1-groszowych, 2-groszowych, 5-groszowych, 10-groszowych i 50-groszowych. Jeżeli suma monet będzie równa jednej złotówce, program powinien pogratulować użytkownikowi wygranej. W przeciwnym razie program powinien wyświetlić komunikat informujący, czy suma byłą mniejsza czy większa od złotówki.
+
+15. Zaprojektuj program, który prosi użytkownika o wpisanie roku, a następnie wyświetla komunikat wskazujący, czy dany rok jest rokiem przestępnym, czy nie. Użyj następującej logiki, aby rozwinąć swój algorytm:
+- Jeśli rok można podzielić bez reszty przez 100 i jest dodatkowo podzielny bez reszty przez 400, to jest to rok przestępny. Na przykłąd rok 2000 jest rokiem przestępnym, ale 2010 nie jest.
+- Jeśli rok nie jest podzielny bez reszty prez 100, ale jest podzielny bez reszty przez 4, to jest rokiem przestępnym. Na przykład rok 2008 jest rokiem przestępnym, ale 2009 nie jest.
+
+                                                                      Struktury cykliczne (pętle)
+                                                                      ___________________________                                                                 
+16. Napisz program który dla wczytanej z klawiatury liczby n wypisze na ekran liczby równe ich kwadratom z zakresu 1 do n (1,4,9 ... n^2)
+
+17. Biegając na bieżni, można w ciągu minuty spalić 3,9 kalorii. Zaprojektuj program, który w pętli wyświetli liczbę spalonych kalorii po 10,15,20,25 i 30 minutach biegania.
+
+18. Zaprojektuj program, który będzie prosił użytkownika o wprowadzenie szeregu liczb dodatnich. Kiedy użytkownik wprowadzi ujemną liczbę, będzie to oznaczało, że chce zakońćzyć wprowadzanie liczb. Po wprowadzeniu liczb program powinien wyświetlić ich sumę.
+
+19. Zaprojektuj program, który będzie prosił użytkownika o wprowadzenie danych i obliczał średnie opady deszczu w danym roku. Na samym początku program powinien poprosić o wprowadzenie liczby lat - pętla zewnętrzna będzie wykonywała ietracje dla każdego roku. Pętla wewnętrzna będzie wykonywała 12 iteracji - dla każdego z miesięcy. W każdej iteracji pętli wewnętrznej program powiniem poprosić użytkownika o sumę opadów w danym miesiącu. Po wykonaniu wszystkich iteracji program powinien wyświetlić liczbę miesięcy, sumę opadów i średni miesięczny opad deszczu we wskazanym okresie.
+
+20. Zapis n! oznacza w matematyce silnię liczby nieujemnej n. Silnia liczby n jest równa iloczynowi wszystkich liczb całkowitych od 1 do n. Przykładowo:
+7! = 1*2*3*4*5*6*7 = 5040, natomiast 4! = 1*2*3*4 = 24.
+Zaprojektuj program, który będzie prosił użytkownika o wprowadzenie nieujemnej liczby całkowitej, a następnie wyświetlał jej silnię.
+
+21.Zaprojektuj program, który będzie używał zagnieżdżonych pętli do wyświetlania tabliczki mnożenia dla liczb od 1 do 12. Wynik programu powinien wyglądać tak:
+1*0=0
+1*1=1
+1*2=2
+1*3=3
+i tak dalej...
+12*9=108
+12*10=120
+12*11=132
+12*12=144
+
+                                                             Funkcje + generowanie liczb pseudolosowych
+                                                             __________________________________________
+22. Jedna stopa odpowiada 12 calom. Zaprojektuj funkcję o nazwie feetToInches, która będzie przyjmowałą jako argument liczbę stóp i zwracała odpowiadającą jej liczbę cali. Wywował tę funkcję w programie, który poprosi użytkownika o wprowadzenie liczby stóp, a następnie wyświetli odpowiadającą im liczbę cali.
+
+23. Zaprojektuj funkcję o nazwie max, która będzie przyjmowała jako argumenty dwie liczby całkowite i zwracała wartość równą większej z tych liczb. Przykładowo po przekazaniu do funkcji liczb 7 i 12 funkcja powinna zwrócić wartość 12. Wywołaj tę funkcję w programie, który poprosi użytkownika o wprowadzenie dwóch liczb całkowitych, a następnie wyświetli wartość większej z nich.
+
+24. Zaprojektuj program do odgadywania liczb. Program powinien generować liczbę losową, a następnie poprosić użytkownika o odgadnięcie numeru. Za każdym razem, gdy użytkownik zgłasza swoje przypuszczenia, program powinien wskazać czy liczba byłą zbyt duża czy zbyt mała. Gra skończy się, gdy użytkownik prawidłowo odgadnie numer. Po zakończeniu gry program powinien wyświetlić liczbę prób wykonanych przez użytkownika.
+
+25. Liczba pierwsza to taka liczba, która dzieli się tylko przez 1 i przez samą siebię. Przykładowo liczbą pierwszą jest 5, ponieważ dzieli się tylko prez 1 i przez 5. Ale liczba 6 nie jest liczbą pierwszą, dzieli się bowiem przez 1,2,3 i 6. Zaprojektuj funkcję boolowską (typ danych bool) o nazwie isPrime, która będzie przyjmowała argument w postaci liczby całkowitej i zwracałą wartość True, jeżeli liczba ta jest liczbą pierwszą lub - w przeciwnym wypadku - wartość False. Wywołaj tę funkcję w programie, który poprosi użytkownika o wprowadzenie liczby, a następnie wyświetli komunikat informujący, czy dana liczba jest liczbą pierwszą.
+
+26. Zaprojektuj program, dzięki któremu użytkownik będzie mógł zagrać z komputerem w grę "papier, kamień, nożyce". Program powinien wyglądać następująco:
+a) Po uruchomieniu programu należy wygenerować losową liczbę z przedziału 1-3. Jeżeli liczba ta jest równa 1, oznacza to, że komputer wylosował kamień. Jeżeli liczba jest równa 2, komputer wylosował papier. Jeżeli liczba jest róna 3, komputer wylosował nożyce. Nie wyświetlaj na razie tego wyniku.
+b) Uzytkownik wprowadza za pomocą klawiatury, czy wybrał kamień, papier czy nożyce.
+c) Wyświetla się informacja, co wybrał komputer.
+d) Komputer wyświetla komunikat informujący, czy wygrał użytkownik czy komputer. Zwycięzcę określa się za pomocą następujących reguł:
+- Jeżeli pierwszy gracz wybrał kamień, a drugi wybrał nożyce, wygrywa kamień
+- Jeżeli pierwszy gracz wybrał nożyce, a drugi wybrał papier, wygrywają nożyce
+- Jeżeli pierwszy grac zwybrał papier, a drugi wybrał kamień, wygrywa papier
+- Jeżeli obaj gracze dokonają takiego wsamego wyboru, grę trzeba powtórzyć
+
+27. Jednoręki bandyta to maszyna hazardowa, do któej gracz wrzuca monety po czym pociąga za dźwignię (lub naciska przycisk). Maszyna następnie wyświetla serię losowych symboli. Jeżeli co najmniej dwa symbole do siebie pasują, gracz wygrywa określoną sumę pieniędzy, które maszyna mu wypłaca.Zaprojektuj program, który będzie symulował działanie jednorękiego bandyty. Po uruchomieniu program powinien wykonać następujące czynności:
+- Użytkownik podaje wartosc pieniezna zainwestowana w gre (wartosc wstepna)
+- Program prosi gracza o wrzucenie do maszyny dowolnej sumy pieniędzy (o ile nie przekracza wartosci dostepnych pieniedzy gracza)
+- Zamiast symboli program wyświetla w sposób losowy kilka słów z następującej listy: Wiśnie, Pomarańcze, Śliwki, Dzwonki, Melony, Sztabki
+- Program trzykrotnie losuje i wyświetla słowo z tej listy.
+- Jeśli żadne z wyświetlonych słów do siebie nie pasują, program wyświetla komunikat, że gracz stracił podana sume pieniedzy. Jeżeli pasują do siebie dwa słowa, program informuje użytkownika, że wygrał kwotę równą dwukrotności sumy wrzuconej do maszyny. Jeżeli pasują do siebie wszystkie trzy słowa, program informuje użytkownika, że wygrał kwotę równą trzykrotności sumy wrzuconej do maszyny.
+- Program pyta użytkownika, czy chce zagrać jeszcze raz. Jeśli tak, poprzednie kroki należy powtózyć. Jeśli nie, program wyświetla wstępną wartość podaną przez użytkownika, łączną ilość prób oraz ostateczną sumę którą otrzymał użytkownik.
+
