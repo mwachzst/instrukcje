@@ -102,3 +102,20 @@ d) Komputer wyświetla komunikat informujący, czy wygrał użytkownik czy kompu
 - Jeśli żadne z wyświetlonych słów do siebie nie pasują, program wyświetla komunikat, że gracz stracił podana sume pieniedzy. Jeżeli pasują do siebie dwa słowa, program informuje użytkownika, że wygrał kwotę równą dwukrotności sumy wrzuconej do maszyny. Jeżeli pasują do siebie wszystkie trzy słowa, program informuje użytkownika, że wygrał kwotę równą trzykrotności sumy wrzuconej do maszyny.
 - Program pyta użytkownika, czy chce zagrać jeszcze raz. Jeśli tak, poprzednie kroki należy powtózyć. Jeśli nie, program wyświetla wstępną wartość podaną przez użytkownika, łączną ilość prób oraz ostateczną sumę którą otrzymał użytkownik.
 
+                                                                             Tablice
+                                                                             _______
+28. Zaprojektuj program, w którym użytkownik będzie mógł wprowadzić 20 liczb. Program powinien zapisać liczby w tablicy, a potem wyświetlić następujące informacje:
+- wartość najmniejszej liczby w tablicy
+- wartość największej liczby w tablicy
+- sumę wszystkich liczb w tablicy
+- średnią wartość wszystkich liczb w tablicy
+
+29. Zaprojektuj program, który będzie wyświetlał liczbę dni w każdym z miesięcy. Program powinien wyświetlać następujące informacje:
+Styczeń ma 31 dni.
+Luty ma 28 dni.
+Marzec ma 31 dni.
+...
+Grudzień ma 31 dni.
+
+W programie powinny występować dwie tablice równoległe: 12-elementowa taliva zawierająca ciąg znaków zainicjalizowana nazwami miesięcy i 12-elementowa tablica liczb całkowitych Integer zainicjalizowana liczbą dni w poszczególnych miesiącach. Aby wyświetlić wynik, prześledź za pomocą pętli obie tablice, pobierając z nich nazwę miesiąca i liczbę dni.
+
