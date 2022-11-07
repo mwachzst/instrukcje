@@ -104,7 +104,7 @@ d) Komputer wyświetla komunikat informujący, czy wygrał użytkownik czy kompu
 
                                                                              Tablice
                                                                              _______
-28. Zaprojektuj program, w którym użytkownik będzie mógł wprowadzić 20 liczb. Program powinien zapisać liczby w tablicy, a potem wyświetlić następujące informacje:
+28. Zaprojektuj program, w którym użytkownik będzie mógł wprowadzić 10 liczb. Program powinien zapisać liczby w tablicy, a potem wyświetlić następujące informacje:
 - wartość najmniejszej liczby w tablicy
 - wartość największej liczby w tablicy
 - sumę wszystkich liczb w tablicy
