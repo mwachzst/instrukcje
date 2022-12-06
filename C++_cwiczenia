@@ -155,14 +155,15 @@ Zaprojektuj program który poprosi użytkownika o wprowadzenie 10-znakowego nume
 
                                                                         Obsługa plików
                                                                         ______________
- 37. Załóżmy, że na dysku znajduje sięplik o nazwie numery.txt, w którym zapisany jest szereg liczb. Zaprojektuj program, który wyświetli wszystkie liczbe zapisane w tym pliku.
+ 37. Załóżmy, że na dysku znajduje się plik o nazwie numery.txt, w którym zapisany jest szereg liczb (5 wartości). Zaprojektuj program, który wyświetli wszystkie liczbe zapisane w tym pliku.
  
- 38. Załóżmy, że na dysku znajduje się plik o nazwie imiona.txt, w którym zapisany jest szereg imion (jako ciągi znaków string). Zaprojektuj program, który wyświetli liczbę imion zapisanych w tym pliku. (Otwórz plik i odczytaj z niego po kolei każdy ciąg znaków. Po odczytaniu każdego ciągu zinkrementuj zmienną licznikową. Pod oczytaniu ostatniego ciągu znaków zmienna licznikowa będzie równa liczbie imion zapisanych w pliku).
+ 38. Załóżmy, że na dysku znajduje się plik o nazwie imiona.txt, w którym zapisany jest szereg imion (5 wartości, jako ciągi znaków string). Zaprojektuj program, który wyświetli liczbę imion zapisanych w tym pliku. (Otwórz plik i odczytaj z niego po kolei każdy ciąg znaków. Po odczytaniu każdego ciągu zinkrementuj zmienną licznikową. Pod oczytaniu ostatniego ciągu znaków zmienna licznikowa będzie równa liczbie imion zapisanych w pliku).
  
- 39. Załóżmy, że na dysku znajduje się plik o nazwie liczby.txt, w którym zapisany jest szereg liczb całkowitych. Zaprojektuj program, który określi wartość największej z liczb zapisanych w tym pliku.
+ 39. Napisz program który wygeneruje 5 liczb losowych z zakresu 1-10 i zapisze te liczby w pliku o nazwie losowanie.txt. W drugim programie odczytaj te liczby z pliku i wyświetl w programie największą z nich.
  
- 40. Klub sportowy Springfork Amateur organizuje w każdy weekend zawody. Prezes klubu poprosił Cię o zaprojektowanie dówch programów:
- a) Program, który umożliwi wprowadzenie nazwiska i wyniku każdego zawodnika, a następnie zapisze te dane jako rekordy w pliku golf.txt
- b) Program, który odczyta rekordy zapisane w pliku golf.txt a następnie je wyświetli.
+ 40. Klub sportowy Springfork Amateur organizuje w każdy weekend zawody. Prezes klubu poprosił Cię o zaprojektowanie trzech programów:
+ a) Program, który umożliwi wprowadzenie nazwiska i wyniku każdego zawodnika, a następnie dopisze te dane jako rekordy w pliku golf.txt
+ b) Program, który odczyta rekordy zapisane w pliku golf.txt (nazwisko oraz wynik) a następnie je wyświetli.
+ c) Program, który odczyta dane z pliku i wyświetli w programie największy zdobyty przez gracza wynik oraz jego nazwisko.
  
  
