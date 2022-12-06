@@ -162,8 +162,8 @@ Zaprojektuj program który poprosi użytkownika o wprowadzenie 10-znakowego nume
  39. Napisz program który wygeneruje 5 liczb losowych z zakresu 1-10 i zapisze te liczby w pliku o nazwie losowanie.txt. W drugim programie odczytaj te liczby z pliku i wyświetl w programie największą z nich.
  
  40. Klub sportowy Springfork Amateur organizuje w każdy weekend zawody. Prezes klubu poprosił Cię o zaprojektowanie trzech programów:
- a) Program, który umożliwi wprowadzenie nazwiska i wyniku każdego zawodnika, a następnie dopisze te dane jako rekordy w pliku golf.txt
+ a) Program, który umożliwi wprowadzenie nazwiska i wyniku każdego zawodnika, a następnie dopisze te dane jako rekordy w pliku golf.txt (PRZEDTEM PROSZĘ UTWORZYĆ PLIK GOLF.TXT Z POZIOMU SYSTEMU OPERACYJNEGO)
  b) Program, który odczyta rekordy zapisane w pliku golf.txt (nazwisko oraz wynik) a następnie je wyświetli.
- c) Program, który odczyta dane z pliku i wyświetli w programie największy zdobyty przez gracza wynik oraz jego nazwisko.
+ c) Program, który odczyta dane z pliku golf.txt i wyświetli w programie największy zdobyty przez gracza wynik oraz jego nazwisko.
  
  
