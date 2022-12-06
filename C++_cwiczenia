@@ -155,9 +155,9 @@ Zaprojektuj program który poprosi użytkownika o wprowadzenie 10-znakowego nume
 
                                                                         Obsługa plików
                                                                         ______________
- 37. Załóżmy, że na dysku znajduje się plik o nazwie numery.txt, w którym zapisany jest szereg liczb (5 wartości). Zaprojektuj program, który wyświetli wszystkie liczbe zapisane w tym pliku.
+ 37. Załóżmy, że na dysku znajduje się plik o nazwie numery.txt, w którym zapisany jest szereg liczb. Zaprojektuj program, który wyświetli wszystkie liczbe zapisane w tym pliku.
  
- 38. Załóżmy, że na dysku znajduje się plik o nazwie imiona.txt, w którym zapisany jest szereg imion (5 wartości, jako ciągi znaków string). Zaprojektuj program, który wyświetli liczbę imion zapisanych w tym pliku. (Otwórz plik i odczytaj z niego po kolei każdy ciąg znaków. Po odczytaniu każdego ciągu zinkrementuj zmienną licznikową. Pod oczytaniu ostatniego ciągu znaków zmienna licznikowa będzie równa liczbie imion zapisanych w pliku).
+ 38. Załóżmy, że na dysku znajduje się plik o nazwie imiona.txt, w którym zapisany jest szereg imion (jako ciągi wyrazów string). Zaprojektuj program, który wyświetli liczbę imion zapisanych w tym pliku. (Otwórz plik i odczytaj z niego po kolei każdy ciąg znaków. Po odczytaniu każdego ciągu zinkrementuj zmienną licznikową. Pod oczytaniu ostatniego ciągu znaków zmienna licznikowa będzie równa liczbie imion zapisanych w pliku).
  
  39. Napisz program który wygeneruje 5 liczb losowych z zakresu 1-10 i zapisze te liczby w pliku o nazwie losowanie.txt. W drugim programie odczytaj te liczby z pliku i wyświetl w programie największą z nich.
  
