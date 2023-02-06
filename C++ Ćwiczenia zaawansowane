@@ -38,7 +38,7 @@ Nie wszytkie liczby są liczbami szczęśliwymi. Przykładowo dla n=11 otrzymamy
 Powyższa sekwencja nigdy nie zakończy się na wyniku 1, wobec tego liczba taka nazywana jest nieszczęśliwą (Unhappy Number)
 
 Napisz program, który dla podanej przez użytkownika dodatniej liczby całkowitej wyświetli informację, czy liczba jest szczęśliwa czy nieszczęśliwa. Dla obu przypadków
-wyświetl sekwencje z obliczeniami.
+wyświetl sekwencje z obliczeniami (dla liczby nieszczęśliwej ogranicz wyświetlanie wyników do 20 liczb).
 
 Przykładowo:
 is_happy(203) ➞ true ➞ "Liczba 203 jest szczęśliwa, ponieważ x -> y -> z -> ... "
