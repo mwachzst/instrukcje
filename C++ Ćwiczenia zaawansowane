@@ -1,0 +1,49 @@
+1. Napisz program w którym dla wczytanej przez użytkownika liczby wypiszę ilość wystąpień multiplikatywnych, czyli liczbę razy, przez którą należy pomnożyć poszczególne
+cyfry zmiennej typu int, aż do otrzymania pojedynczej cyfry.
+
+Przykładowo: count_multiplicate(39) ➞ 3, ponieważ 3 * 9 = 27, 2 * 7 = 14, 1 * 4 = 4 -> 4 jest pojedynczą cyfrą i program do uzyskania wyniku potrzebował trzech mnożeń.
+count_multiplicate(999) ➞ 4, ponieważ 9 * 9 * 9 = 729, 7 * 2 * 9 = 126, 1 * 2 * 6 = 12, 1 * 2 = 2 -> 2 jest pojedynczą cyfrą, wynikiem jest 4.
+
+Aby liczbę ze zmiennej integer podzielić na zmienne typu całkowitego przechowujące poszczególne cyfry, należy zastosować operacje modulo ("%") oraz wykorzystać dzielenia
+do rzędów jedności, dziesiątek, setek, tysięcy itp.
+
+Przykładowo dla liczby 39, aby "wydobyć" ostatnią cyfrę należy zastosować operację 39%10 = 9. Kolejne cyfry wymagają dodatkowo zastosowania dzielenia.
+
+W programie należy w kolejnych liniach wyświetlać wynik mnożenia oraz wartości zmiennych przechowujących nowe cyfry.
+
+
+2. Sekwencja "ślepego zaułka":
+Funkcja przyjmuje dodatnią liczbę całkowitą podaną przez użytkownika (n). Zmienna s jest sumą poszczególnych cyfr w liczbie n. Jeżeli n jest podzielne przez s to kolejną
+badaną liczbą jest wynik działania n/s, w przeciwnym wypadku wynikiem jest n*s. W pewnym momencie sekwencji wynikami będa dwie naprzemienne wartości zmiennych określane
+jako "ślepy zaułek". Przykładowo dla danej wejściowej n równej 58 otrzymamy następujący wynik:
+
+58 -> 754 -> 12064 -> 928 -> 17632 -> 928 -> 17632 -> 928 -> ...
+
+Napisz program który dla podanej wartości zmiennej n wyświetli ilość działań wykonanych do momentu uzyskania "ślepego zaułka" - dwóch zmiennych powtarzających się
+w wynikach obliczeń oraz ostatniej wartości zmiennej n która nie powtarza się w sekwencji. Dla powyższego przykładu (wartość zmiennej 58) wynikiem działania funkcji jest:
+
+deadEnd(5) ➞ [5, 17632]
+
+3. Szczęśliwe liczby:
+Dla podanej dodatniej liczby całkowitej możemy utworzyć nowe liczby na podstawie wzoru który sumuje kwadraty poszczególnych cyfr w liczbie. Przykładowo dla n=203 otrzymaną
+nową liczbą będzie 13, ponieważ 4 + 0 + 9 = 13. Jeżeli będziemy powtarzać obliczenia to otrzymamy następującą sekwencję liczb:
+
+203 -> 13 -> 10 -> 1 -> 1
+
+Czasami, jak w przykładzie powyższym otrzymamy sekwencję liczb w której ostatnią wartością będzie liczba 1. Takie liczby nazywane są liczbami szczęśliwymi (Happy Numbers).
+Nie wszytkie liczby są liczbami szczęśliwymi. Przykładowo dla n=11 otrzymamy następującą sekwencję:
+
+11 -> 2 -> 4 -> 16 -> ...
+
+Powyższa sekwencja nigdy nie zakończy się na wyniku 1, wobec tego liczba taka nazywana jest nieszczęśliwą (Unhappy Number)
+
+Napisz program, który dla podanej przez użytkownika dodatniej liczby całkowitej wyświetli informację, czy liczba jest szczęśliwa czy nieszczęśliwa. Dla obu przypadków
+wyświetl sekwencje z obliczeniami.
+
+Przykładowo:
+is_happy(203) ➞ true ➞ "Liczba 203 jest szczęśliwa, ponieważ x -> y -> z -> ... "
+
+is_happy(11) ➞ false ➞ "Liczba 11 jest nieszczęśliwa, ponieważ x -> y -> z -> ... "
+
+is_happy(107) ➞ false ➞ "Liczba 107 jest szczęśliwa x -> y -> z -> ..."
+
