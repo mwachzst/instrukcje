@@ -45,5 +45,5 @@ is_happy(203) ➞ true ➞ "Liczba 203 jest szczęśliwa, ponieważ x -> y -> z 
 
 is_happy(11) ➞ false ➞ "Liczba 11 jest nieszczęśliwa, ponieważ x -> y -> z -> ... "
 
-is_happy(107) ➞ false ➞ "Liczba 107 jest szczęśliwa x -> y -> z -> ..."
+is_happy(107) ➞ false ➞ "Liczba 107 jest nieszczęśliwa, ponieważ x -> y -> z -> ..."
 
