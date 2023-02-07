@@ -1,0 +1,14 @@
+Utwórz maszynę wirtualną dla systemu Linux Mint:
+- dynamiczna alokacja miejsca na dysku, rozmiar 50gb
+- przydziel minimum 2048mb pamięci RAM dla maszyny wirtualnej
+
+Podczas instalacji:
+- utwórz partycję główną ("/") o rozmiarze 30 GB
+- utwórz partycję danych o rozmiarze 15 GB
+- utwórz partycję wymiany o rozmiarze 5 GB
+
+PODCZAS TWORZENIA MASZYNY WIRTUALNEJ I INSTALACJI SYSTEMU LINUX MINT WYKONAJ ZRZUTY EKRANU:
+1. Okno tworzenia wirtualnego dysku twardego maszyny (okno z rozmiarem dysku maszyny wirtualnej)
+2. Okno przydzielania wirtualnej pamięci RAM
+3. Okno partycjonowania systemu
+4. Zrzut ekranu z logowania do systemu
