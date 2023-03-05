@@ -52,5 +52,17 @@ is_happy(107) ➞ false ➞ "Liczba 107 jest nieszczęśliwa, ponieważ x -> y -
 
 ************************************************************************************************************************************
 
+5. Napisz program który będzie symulował grę w Blackjacka (oczko) dla dwóch osób. Gra polega na "losowaniu" (generowaniu liczb pseudolosowych) karty z talii kart,
+oraz dodaniu do wyniku gracza wartości tej karty. Zasadniem gracza jest uzyskanie jak najbliżej (ale nie więcej niż) 21 punktów. Zasady punktowania kart:
+- karty od 2 do 9 oczek - mają tyle samo punktów, co oczek
+- "10", Walet, Dama, Król - mają po 10 punktów
+- As - ma 1 lub 11 punktów. Po wylosowaniu asa gracz sam decyduje czy jest on punktowany za 1 czy za 11.
+
+Wytyczne do programu:
+- Gra Blackjack jest grą dla dwóch osób - wygrywa ta osoba która uzyska wynik bliższy 21 punktów.
+- Program na podstawie "rzutu monetą" (liczby pseudolosowej) decyduje o tym który gracz zaczyna grę.
+- Po każdorazowym losowaniu program pyta użytkownika czy zachować wynik lub czy wygenerować nową kartę.
+- Gdy program wylosuje kartę "As" - pyta użytkownika czy do wyniku dodać 1 lub 11 punktów.
+- 
 
 
