@@ -69,9 +69,26 @@ W powyższym przykładzie:
 - przedostatni element tablicy (0) jest liczbą nieszczęśliwą
 - pozostałe liczby w tablicy są liczbami szczęśliwymi
 
-Napisz funkcję która wczyta od użytkownika rozmiar tablicy liczb całkowitych. Program następnie wczytuje od użytkownika liczby do tablicy (wartości 0 lub 1, jeżeli
+Napisz program która wczyta od użytkownika rozmiar tablicy liczb całkowitych. Program następnie wczytuje od użytkownika liczby do tablicy (wartości 0 lub 1, jeżeli
 użytkownik poda inną liczbą, program powinien o tym poinformować i ponownie poprosić użytkownika i podanie wartości dla danego indeksu tablicy). Wynikiem działania
-funkcji jest 
+programu jest stosunek liczb szczęśliwych do wszystkich liczb w tablicy, wyrażony w procentach:
+
+happy numbers = (happy 0s + happy 1s) / total numbers * 100
+
+Wynikiem działania programu dla powyższego zbioru liczb [0, 1, 0, 0, 0, 1, 1, 1, 0, 1] jest 0.6 (60% liczb szczęśliwych), ponieważ:
+
+0 1 0 0 0 1 1 1 0 1
+N N S S	S S S S	N N
+
+happy numbers = (3 + 3)/10 * 100 = 60 ("%")
+
+Przykłady działania funkcji dla innych zbiorów liczb:
+
+portionHappy([0, 1, 0, 1, 0]) ➞ 0 (0%)
+portionHappy([0, 1, 1, 0]) ➞ 0.5 (50%)
+portionHappy([0, 0, 0, 1, 1]) ➞ 1 (100%)
+portionHappy([1, 0, 0, 1, 1]) ➞ 0.8 (80%)
+
 
 
 
