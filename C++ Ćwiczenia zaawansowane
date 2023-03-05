@@ -52,6 +52,37 @@ is_happy(107) ➞ false ➞ "Liczba 107 jest nieszczęśliwa, ponieważ x -> y -
 
 ************************************************************************************************************************************
 
+4. Szczęśliwe liczby (wersja tablicowa):
+
+Badany jest ciąg liczb całkowitych w tablicy o wartościach 0 lub 1:
+
+[0, 1, 0, 0, 0, 1, 1, 1, 0, 1]
+
+Liczba 1 w tablicy jest liczbą nieszczęśliwą, jeżeli liczby po jej lewej i prawej stronie mają wartość 0.
+Liczba 0 w tablicy jest liczbą nieszczęśliwą, jeżeli liczby po jej lewej i prawej stronie mają wartość 1.
+Jeżeli liczba ma tylko jednego sąsiada, ta liczba jest nieszczęśliwa, jeżeli sąsiad posiada inną wartość liczbową niż liczba badana.
+    W przeciwnym wypadku badana liczba jest liczbą szczęśliwą.
+    
+W powyższym przykładzie:
+- pierwszy element (0) oraz element ostatni (1) tablicy to liczby nieszczęśliwe
+- drugi element tablicy (1) jest liczbą nieszczęśliwą
+- przedostatni element tablicy (0) jest liczbą nieszczęśliwą
+- pozostałe liczby w tablicy są liczbami szczęśliwymi
+
+Napisz funkcję która wczyta od użytkownika rozmiar tablicy liczb całkowitych. Program następnie wczytuje od użytkownika liczby do tablicy (wartości 0 lub 1, jeżeli
+użytkownik poda inną liczbą, program powinien o tym poinformować i ponownie poprosić użytkownika i podanie wartości dla danego indeksu tablicy). Wynikiem działania
+funkcji jest 
+
+
+
+
+
+
+
+
+
+************************************************************************************************************************************
+
 5. Napisz program który będzie symulował grę w Blackjacka (oczko) dla dwóch osób. Gra polega na "losowaniu" (generowaniu liczb pseudolosowych) karty z talii kart,
 oraz dodaniu do wyniku gracza wartości tej karty. Zasadniem gracza jest uzyskanie jak najbliżej (ale nie więcej niż) 21 punktów. Zasady punktowania kart:
 - karty od 2 do 9 oczek - mają tyle samo punktów, co oczek
