@@ -90,14 +90,6 @@ portionHappy([0, 0, 0, 1, 1]) ➞ 1 (100%)
 portionHappy([1, 0, 0, 1, 1]) ➞ 0.8 (80%)
 
 
-
-
-
-
-
-
-
-
 ************************************************************************************************************************************
 
 5. Napisz program który będzie symulował grę w Blackjacka (oczko) dla dwóch osób. Gra polega na "losowaniu" (generowaniu liczb pseudolosowych) karty z talii kart,
