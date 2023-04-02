@@ -103,6 +103,7 @@ findFulcrum([3, 1, 5, 2, 4, 6, -1]) ➞ 2 , ponieważ [3,1,5] (elementy po lewej
 sumują się do 9.
 
 Napisz funkcję która sprawdzi tablicę pod kątem wystąpienia punktu podparcia (jeżeli taki punkt w tablicy się nie znajduje, to program wyświetli stosowną informację).
+Dane wejściowe podawane przez użytkownika to wielkość tablicy oraz liczby całkowite.
 
 Przykłady to testowania poprawności programu:
 
@@ -111,13 +112,30 @@ findFulcrum([9, 1, 9]) ➞ 1
 findFulcrum([7, -1, 0, -1, 1, 1, 2, 3]) ➞ 0
 findFulcrum([8, 8, 8, 8]) ➞ -1
 
+************************************************************************************************************************************
 
+6. Parowanie skarpetek
+
+Dysponujesz tablicą liczb całkowitych. Liczby te reprezentują różne kolory skarpetek. Napisz program, a w nim odpowiednią funkcję, która na podstawie wielkości tablicy
+oraz liczb całkowitych (reprezentujących kolory skarpetek) wprowadzonych przez użytkownika wyświetli na ekranie ilość sparowanych skarpetek. 
+
+Przykładowo:
+
+sockMerchant[1, 2, 1, 2, 1, 3, 2] ➞ 2 , ponieważ z 7 dostępnych kolorów skarpetek uda się wydobyć 2 pary o takim samym kolorze - są to pary o numerze 1 oraz 2.
+
+Trzy skarpetki zostają bez pary:
+
+[1,  2,  1,  2,  1,  3,  2]
+P1   P2  P1  P2  X   X   X
+
+Przykłady do testowania poprawności programu:
+sockMerchant([10, 20, 20, 10, 10, 30, 50, 10, 20]) ➞ 3
+sockMerchant([50, 20, 30, 90, 30, 20, 50, 20, 90]) ➞ 4
+sockMerchant([]) ➞ 0
 
 ************************************************************************************************************************************
 
-
-
-6. Napisz program który będzie symulował grę w Blackjacka (oczko) dla dwóch osób. Gra polega na "losowaniu" (generowaniu liczb pseudolosowych) karty z talii kart,
+7. Napisz program który będzie symulował grę w Blackjacka (oczko) dla dwóch osób. Gra polega na "losowaniu" (generowaniu liczb pseudolosowych) karty z talii kart,
 oraz dodaniu do wyniku gracza wartości tej karty. Zasadniem gracza jest uzyskanie jak najbliżej (ale nie więcej niż) 21 punktów. Zasady punktowania kart:
 - karty od 2 do 9 oczek - mają tyle samo punktów, co oczek
 - "10", Walet, Dama, Król - mają po 10 punktów
