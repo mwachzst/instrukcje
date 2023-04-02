@@ -92,7 +92,32 @@ portionHappy([1, 0, 0, 1, 1]) ➞ 0.8 (80%)
 
 ************************************************************************************************************************************
 
-5. Napisz program który będzie symulował grę w Blackjacka (oczko) dla dwóch osób. Gra polega na "losowaniu" (generowaniu liczb pseudolosowych) karty z talii kart,
+5. Punkty podparcia - wersja tablicowa
+
+Punktem podparcia w tablicy liczb całkowitych jest taka liczba, że wszystkie elementy na lewej od niej i wszystkie elementy na prawo od niej sumują się do tej 
+samej wartości.
+
+Przykładowo:
+
+findFulcrum([3, 1, 5, 2, 4, 6, -1]) ➞ 2 , ponieważ [3,1,5] (elementy po lewej stronie od badanej liczby) i [4,6,-1] (elementy po prawej stronie od badanej liczby)
+sumują się do 9.
+
+Napisz funkcję która sprawdzi tablicę pod kątem wystąpienia punktu podparcia (jeżeli taki punkt w tablicy się nie znajduje, to program wyświetli stosowną informację).
+
+Przykłady to testowania poprawności programu:
+
+findFulcrum([1, 2, 4, 9, 10, -10, -9, 3]) ➞ 4
+findFulcrum([9, 1, 9]) ➞ 1
+findFulcrum([7, -1, 0, -1, 1, 1, 2, 3]) ➞ 0
+findFulcrum([8, 8, 8, 8]) ➞ -1
+
+
+
+************************************************************************************************************************************
+
+
+
+6. Napisz program który będzie symulował grę w Blackjacka (oczko) dla dwóch osób. Gra polega na "losowaniu" (generowaniu liczb pseudolosowych) karty z talii kart,
 oraz dodaniu do wyniku gracza wartości tej karty. Zasadniem gracza jest uzyskanie jak najbliżej (ale nie więcej niż) 21 punktów. Zasady punktowania kart:
 - karty od 2 do 9 oczek - mają tyle samo punktów, co oczek
 - "10", Walet, Dama, Król - mają po 10 punktów
