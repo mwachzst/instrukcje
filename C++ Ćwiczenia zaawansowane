@@ -135,7 +135,36 @@ sockMerchant([]) ➞ 0
 
 ************************************************************************************************************************************
 
-7. Napisz program który będzie symulował grę w Blackjacka (oczko) dla dwóch osób. Gra polega na "losowaniu" (generowaniu liczb pseudolosowych) karty z talii kart,
+7. Powtarzający się cykl
+
+Poniżej widoczny jest przykład tablicy wypełnionej liczbami całkowitymi, w której występuje powtarzający się cykl:
+
+isRepeatingCycle([1, 2, 3, 1, 2], 3) => true , ponieważ pierwsze dwa elementy z podzbioru [1,2,3] występują na 4 i 5 pozycji w tablicy
+
+Poniżej widoczny jest przykład tablicy wypełnionej liczbami całkowitymi, w której NIE występuje powtarzający się cykl:
+
+isRepeatingCycle([1, 2, 3, 1, 3], 3) => false , ponieważ [1,2,3] != [1,3]
+
+Napisz funkcję która przyjmuje dwa argumenty:
+1. Tablicę liczb całkowitych
+2. Długość cyklu który będzie sprawdzany
+
+Funkcja zwraca wartość logiczną "true", jeżeli w tablicy występuje powtarzjacy się cykl, lub "false", jeżeli cykl ten nie występuje.
+
+WSZYSTKIE elementy sprawdzane w tablicy muszą być zgodne z wzorcem (długością cyklu). Przykładowo:
+isRepeatingCycle([1, 2, 3, 1, 2], 3) => true , ponieważ sprawdzanie elementów tablicy kończy się na drugiej pozycji wzorca ( [1,2,3] <=> [1,2] )
+isRepeatingCycle([1, 2, 3, 1, 2, 1], 3) => false , ponieważ ostatni element tablicy łamie szyk ( [1,2,3] != [1,2,1] )
+
+Przykłady do testowania poprawności programu:
+
+isRepeatingCycle([1, 2, 3, 1, 2, 3, 1], 3) ➞ true
+isRepeatingCycle([1, 2, 3, 4, 2, 3, 1], 4) ➞ false
+isRepeatingCycle([1, 2, 1, 2, 2], 2) ➞ false
+isRepeatingCycle([1, 1, 1, 1], 3) ➞ true
+
+************************************************************************************************************************************
+
+8. Napisz program który będzie symulował grę w Blackjacka (oczko) dla dwóch osób. Gra polega na "losowaniu" (generowaniu liczb pseudolosowych) karty z talii kart,
 oraz dodaniu do wyniku gracza wartości tej karty. Zasadniem gracza jest uzyskanie jak najbliżej (ale nie więcej niż) 21 punktów. Zasady punktowania kart:
 - karty od 2 do 9 oczek - mają tyle samo punktów, co oczek
 - "10", Walet, Dama, Król - mają po 10 punktów
