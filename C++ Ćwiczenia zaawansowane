@@ -175,7 +175,8 @@ Wytyczne do programu:
 - Program na podstawie "rzutu monetą" (liczby pseudolosowej) decyduje o tym który gracz zaczyna grę.
 - Losowanie odbywa się naprzemiennie, np. gracz 1 losuje kartę -> program pyta gracza 1 czy zachować wynik -> gracz 2 losuje kartę -> ...
 - Gdy program wylosuje kartę "As" - pyta użytkownika czy do wyniku dodać 1 lub 11 punktów.
+- Gry gracz przekroczy 21 punktów - wygrywa przeciwnik.
 - Gdy gracze mają poniżej 21 punktów - wygrywa ta osoba, która uzyskała wynik bliższy 21.
-- Gra działa w formacie BO5 - rywalizację wygrywa ta osoba, która pierwsza uzyska trzy wygrane rundy.
+
 
 
