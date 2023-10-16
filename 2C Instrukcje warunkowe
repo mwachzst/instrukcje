@@ -1,6 +1,6 @@
 Na ocenę:
  2: Napisz program informujący czy podana przez użytkownika liczba jest większa, mniejsza czy równa zero (zastosuj instrukcje warunkowe)
- 3:  Napisz program, który wystawi ocenę z testu na podstawie wyniku wprowadzonego przez użytkownika
+ 3:  Napisz program, który wystawi ocenę z testu na podstawie wyniku wprowadzonego przez użytkownika (zastosuj instrukcje warunkowe)
   0 - 39 pkt - ocena niedostateczna
   40 - 54 pkt - ocena dopuszczająca
   55 - 69 pkt - ocena dostateczna
