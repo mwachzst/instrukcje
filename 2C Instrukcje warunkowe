@@ -1,6 +1,12 @@
 Na ocenę:
- 2: Napisz program który wyświetli na podstawie wieku podanego przez użytkownika czy osoba jest pełnoletnia, czy niepełnoletnia (zastosuj instrukcję warunkową)
- 3: Napisz program informujący czy podana przez użytkownika liczba jest większa, mniejsza czy równa zero (zastosuj instrukcje warunkowe)
+ 2: Napisz program informujący czy podana przez użytkownika liczba jest większa, mniejsza czy równa zero (zastosuj instrukcje warunkowe)
+ 3:  Napisz program, który wystawi ocenę z testu na podstawie wyniku wprowadzonego przez użytkownika
+  0 - 39 pkt - ocena niedostateczna
+  40 - 54 pkt - ocena dopuszczająca
+  55 - 69 pkt - ocena dostateczna
+  70 - 84 pkt - ocena dobra
+  85 - 98 pkt - ocena bardzo dobra
+  99 - 100 pkt - ocena celująca
  4: Napisz program który odpowie na pytanie, czy wśród trzech liczb wprowadzonych przez użytkownika są choć dwie takie same (zastosuj instrukcje warunkowe)
  5: Napisz program który wczyta od użytkownika trzy liczby całkowite a następnie wyświetli je w kolejności rosnącej (zastosuj instrukcje warunkowe)
  6: Kolor czerwony, niebieski i żółty nazywane są kolorami podstawowymi, ponieważ nie da się ich uzyskać, mieszając ze sobą inne kolory. 
