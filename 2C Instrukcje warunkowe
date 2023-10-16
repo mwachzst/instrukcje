@@ -15,7 +15,7 @@ PODPOWIEDŹ: Zastosuj instrukcje warunkowe WEWNĄTRZ instrukcji warunkowej (np. 
 - w wyniku wymieszania kolorów czerwonego i niebieskiego otrzymamy kolor fioletowy;
 - w wyniku wymieszania kolorów czerwonego i żółtego otrzymamy kolor pomarańczowy;
 - w wyniku wymieszania kolorów niebieskiego i żółtego otrzymamy kolor zielony.
-Zaprojektuj program, który będzie prosił użytkownika o wybranie dwóch barw podstawowych (w programie użytkownik wybiera kolory przez liczby 1/2/3, np. 1-niebieski, 2-...)
-a następnie wyświetli uzyskany kolor pochodny.
+Zaprojektuj program, który będzie prosił użytkownika o wybranie dwóch barw podstawowych a następnie wyświetli uzyskany kolor pochodny.
+W programie użytkownik wybiera kolory przez liczby 1/2/3, np. 1-niebieski, 2-... - na początku program informuje użytkownika o kolejności.
 Jeżeli użytkownik dokona wyboru innego niż "czerwony", "niebieski" lub "żółty", lub użytkownik wybierze dwa te same kolory - program powinien wyświetlić komunikat błędu. 
 W przeciwnym razie program powinien wyświetlić nazwę koloru powstałego w wyniku wymieszania dwóch wprowadzonych kolorów.
