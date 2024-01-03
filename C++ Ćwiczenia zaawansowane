@@ -185,7 +185,12 @@ gracza drugiego przy jednoczesnym podawaniu spółgłosek i samogłosek. Gra zmo
 - Pseudolosowość programu decyduje o tym, czy gracz pierwszy lub drugi zaczyna grę (podaje hasło)
 - Program po wczytaniu hasła przez gracza rozpoczynającego wymazuje zawartość na ekranie (system("CLS"))
 - Program wyświetla dla gracza drugiego hasło w zaszyfrowanej postaci, np. "------_----_-----", gdzie "-" oznacza litery nieodgadnięte, "_" oznacza odstęp między wyrazami
-- 
+- Gracz odgadujący hasło podaje jedną samogłoskę i trzy spółgłoski
+- Gracz odgadujący hasło decyduje (za pomocą instrukcji wyboru) czy podaje literę czy odgaduje hasło. Zastosuj funkcję czyszczenia ekranu po dokonaniu wyboru oraz wyświetl aktualny stan punktów.
+- Zaimplementuj w programie własny system zliczania punktów. Przykładowo za każdą nietrafioną literę w haśle gracz traci X punktów, a za odgadnięte hasło dostaje
+Y punktów zależne od brakujących liter. 
+- Wyświetl w programie za pomocą funkcji (modułu) instrukcje do gry oraz wyświetl nazwę gry stosując ASCII generator tekstu (np. https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
+
 
 
 
