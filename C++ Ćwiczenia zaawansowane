@@ -178,5 +178,14 @@ Wytyczne do programu:
 - Gry gracz przekroczy 21 punktów - wygrywa przeciwnik.
 - Gdy gracze mają poniżej 21 punktów - wygrywa ta osoba, która uzyskała wynik bliższy 21.
 
+************************************************************************************************************************************
+
+9. Napisz program który będzie symulował grę w "Wisielca" (ang. Hangman) dla dwóch osób. Gra polega na podaniu hasła przez gracza i odgadnięciu tego hasła przez
+gracza drugiego przy jednoczesnym podawaniu spółgłosek i samogłosek. Gra zmodyfikowana w następujący sposób:
+- Pseudolosowość programu decyduje o tym, czy gracz pierwszy lub drugi zaczyna grę (podaje hasło)
+- Program po wczytaniu hasła przez gracza rozpoczynającego wymazuje zawartość na ekranie (system("CLS"))
+- Program wyświetla dla gracza drugiego hasło w zaszyfrowanej postaci, np. "------_----_-----", gdzie "-" oznacza litery nieodgadnięte, "_" oznacza odstęp między wyrazami
+- 
+
 
 
