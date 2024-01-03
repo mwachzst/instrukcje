@@ -191,6 +191,17 @@ gracza drugiego przy jednoczesnym podawaniu spółgłosek i samogłosek. Gra zmo
 Y punktów zależne od brakujących liter. 
 - Wyświetl w programie za pomocą funkcji (modułu) instrukcje do gry oraz wyświetl nazwę gry stosując ASCII generator tekstu (np. https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
+************************************************************************************************************************************
 
-
+10. Napisz program który będzie symulował grę kośćmi a'la Poker. Gra polega na jednoczesnym rzucie pięcioma kostkami do gry (oczka od 1 do 6) i przeznaczona jest dla dwóch graczy.
+Zasady gry:
+- Pseudolosowość programu decyduje o tym, czy pierwszy lub drugi gracz rozpoczyna grę
+- Rozpoczanający grę gracz otrzymuje na ekranie wynik rzutu pięciu kostek do gry (na kościach oczka od 1 do 6)
+- Gracz decyduje które pary kostek zostaną "zachowane", na których liczba oczek jest taka sama. W takiej sytuacji gracz otrzymuje do wyniku liczbę punktów równą oczkom
+na jednej LUB drugiej kostce (np. z pięciu kostek dwie wylosowały 6 i 6 -> gracz otrzymuje 6 punktów i ta para kostek jest "odkładana na bok"
+- Gracz może "zachować" trzy kostki, kiedy wynik losowania oczek na wszystkich trzech kostkach jest taki sam. Wówczas do wyniku dodaje się dwukrotność oczek na jednej z
+kostek (np. z pięciu kostek trzy wylosowały 5 oczek -> gracz otrzymuje 5*2 = 10 punktów i te trzy kostki są odkładane na bok)
+- Gracz po losowaniu decyduje (za pomocą instrukcji wyboru) które kostki zachowuje, a które losuje ponownie. Gracz ma możliwość ponownego rzutu, raz na daną kostkę
+- W sytuacji gdy 4 lub 5 kości zostało "odłożonych", lub zostały wyczerpane możliwości ponownego rzutu kośćmi, program wyświetla ostateczny wynik gracza oraz grę rozpoczyna gracz kolejny
+- Program po decyzjach gracza drugiego wyświetla ostateczny wynik obu graczy, oraz który gracz zwyciężył
 
