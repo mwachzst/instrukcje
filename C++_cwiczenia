@@ -91,8 +91,9 @@ c) Wyświetla się informacja, co wybrał komputer.
 d) Komputer wyświetla komunikat informujący, czy wygrał użytkownik czy komputer. Zwycięzcę określa się za pomocą następujących reguł:
 - Jeżeli pierwszy gracz wybrał kamień, a drugi wybrał nożyce, wygrywa kamień
 - Jeżeli pierwszy gracz wybrał nożyce, a drugi wybrał papier, wygrywają nożyce
-- Jeżeli pierwszy grac zwybrał papier, a drugi wybrał kamień, wygrywa papier
-- Jeżeli obaj gracze dokonają takiego wsamego wyboru, grę trzeba powtórzyć
+- Jeżeli pierwszy gracz wybrał papier, a drugi wybrał kamień, wygrywa papier
+- Jeżeli obaj gracze dokonają takiego wsamego wyboru, rundę trzeba powtórzyć
+- Gra toczy się w trybie BO5 - wygrywa ten, kto pierwszy uzyska wynik trzech punktów
 
 27. Jednoręki bandyta to maszyna hazardowa, do któej gracz wrzuca monety po czym pociąga za dźwignię (lub naciska przycisk). Maszyna następnie wyświetla serię losowych symboli. Jeżeli co najmniej dwa symbole do siebie pasują, gracz wygrywa określoną sumę pieniędzy, które maszyna mu wypłaca.Zaprojektuj program, który będzie symulował działanie jednorękiego bandyty. Po uruchomieniu program powinien wykonać następujące czynności:
 - Użytkownik podaje wartosc pieniezna zainwestowana w gre (wartosc wstepna)
