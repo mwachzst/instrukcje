@@ -4,7 +4,10 @@
 3I: 24
 3P: 23
 
-TOTAL: 117
+NIE JEDZIE:
+- Bomba Maciej 3P
+- Mrozek Marcel 3I
+TOTAL: 115
 
 Opiekunowie:
 - Kulik P.
@@ -48,6 +51,8 @@ Sułek Kamil
 Piwoński Michał
 Kulik Oskar
 Kalinowski Mateusz
+
+
 
 -3P (10 os.):
 
