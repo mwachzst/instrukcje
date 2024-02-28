@@ -40,7 +40,7 @@ Lista rezerwowa: Lachtara Zuzanna -> Skomra Franciszek
 
 Lista rezerwowa: Gasiński Paweł, Startek Wojtek, Maciąg Dawid
 
--3I (10 os.):
+-3I (9 os.):
 Łyszcz Julia
 Podleśny Adrian
 Wawer Dawid
@@ -48,7 +48,6 @@ Rojczyk Patryk
 Mazurek Jakub
 Kozdrój Przemek
 Sułek Kamil
-Piwoński Michał
 Kulik Oskar
 Kalinowski Mateusz
 
