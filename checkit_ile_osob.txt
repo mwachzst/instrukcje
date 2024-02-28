@@ -1,3 +1,4 @@
+Stan klasy:
 1I: 23
 2P: 23
 2R: 24
