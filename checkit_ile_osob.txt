@@ -56,15 +56,15 @@ Szwed Aleks
 
 -3P (10 os.):
 
-12 Kuta P 5 = 5 4 4 5 4 5 5 = 32
-6 Jędrychowski K = 5 3 5 4 5 5 5 = 32
-8 Kołodziej M = 5 5 4 4 5 5 5 = 33
-19 Olszak M = 5 4 5 4 5 5 5 = 33
-17 Michowski M = 5 4 4 4 5 4 5 = 31
-18 Nowak P = 5 6 5 4 5 5 5 = 35
-3 Daniszewski A = 5 4 4 5 5 5 5 = 33
-9 Komsta J = 5 5 4 3 5 5 5 = 32
-22 Wereszczynski M = 5 4 4 4 5 5 5 = 32
-23 Wrona M = 5 6 4 5 5 5 5 = 35
+Kuta Piotr
+Jędrychowski Kacper
+Kołodziej Mikołaj
+Olszak Mateusz
+Michowski Maksymilian
+Nowak Paweł
+Daniszewski Antoni
+Komsta Jakub
+Wereszczyński Marcin
+Wrona Mikołaj
 
 Lista rezerwowa: Jańczak Oliwier > Łukasiewicz Miłosz
