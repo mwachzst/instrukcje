@@ -211,15 +211,15 @@ kostek (np. z pięciu kostek trzy wylosowały 5 oczek -> gracz otrzymuje 5*2 = 1
 
 Liczba całkowita znajdująca się w komórce tablicy jednowymiarowej może "zjeść" liczbę po swojej prawej stronie jeżeli ta liczba jest mniejsza od badanej.
 Po "zjedzeniu" tej liczby, nowa liczba staje się sumą liczby badanej oraz liczby "zjadanej".
-Utwórz funkcję która zwróci wartości nowych komórek w tablicy gdy ostatni element zakończy "zjadanie" swojego sąsiada.
-
+Utwórz funkcję która zwróci wartości nowych komórek w tablicy gdy badana liczba zakończy swoją ucztę (wyczerpie możliwości zjedzenia sąsiada po prawej stronie)  
 Przykład:
 [5, 3, 7] ➞ [8, 7] ➞ [15]
 5 zjada 3 -> 8
 8 zjada 7 -> 15
-
 Przykłady do testowania programu:
 nomNom([1, 2, 3]) ➞ [1, 2, 3]
-nomNom([2, 1, 3]) ➞ [3, 3]
+nomNom([2, 1, 3]) ➞ [3, 3] 
 nomNom([8, 5, 9]) ➞ [22]
+nomNom([6, 2, 8, 7]) ➞ [8, 8, 7] (pomimo tego, że 8>7 program nie wykonuje operacji zjadania ponieważ zakończył swoje działanie dla wartości 6 i 2)
+nomNom([1, 2, 3, 2, 1, 8]) ➞ [1, 2, 6, 8] (program rozpoczyna zjadanie od wartości 3, kończąc na 1)
 
