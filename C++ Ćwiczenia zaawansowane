@@ -245,4 +245,45 @@ primeTriplets(5, 17) ➞ [ ] (NULL)
 primeTriplets(64, 88) ➞ [67, 73, 79]
 // 67 + 6 = 73 + 6 = 79 oraz 67 + 18 = 85
 
+************************************************************************************************************************************
+
+13. Zegar binarny
+
+Zegar binarny to urządzenie któe wyświetla czas w formacie binarnym (dwójkowym). Wspólczesne zegary binarne mają sześć kolumn w które wbudowane są diody LED:
+- dwie kolumny które wyznaczają godzinę w formacie HH
+- dwie kolumny które wyznaczają minuty w formacie MM
+- dwie kolumny które wyznaczają sekundy w formacie SS
+
+Wartości binarne wzrastają od dołu do górnego rzędu. Światełka w najniższym rzędzie mają wartość 1, powyżej mają wartość 2, następnie 4 i ostatni rząd to 8.
+Każdy czas w formacie 24-godzinnym można przedstawić na urządzeniu poprzez włączenie odpowiedniej kombinacji świateł.
+
+Przykładowo, aby wyświetlić czas 10:37:49: (X oznacza światło włączone, O oznacza wyłączone)
+    H    H  |  M   M  |  S    S   
+8        O  |      O  |       X
+4        O  | O    X  |  X    O
+2   O    O  | X    X  |  O    O
+1   X    O  | X    X  |  O    X
+    1    0    3    7     4    9
+
+Napisz funkcję która wczyta jako argument czas podany przez użytkownika w formacie HH-MM-SS. Program następnie wyświetli ten czas w zegarze binarnym (jako tablica dwuwymiarowa).
+
+Przykłady do testowania poprawności programu:
+binaryClock("10:37:49") ➞ [
+  " 0 0 1",
+  " 00110",
+  "001100",
+  "101101"
+]
+binaryClock("18:57:31") ➞ [
+  " 1 0 0",
+  " 01100",
+  "000110",
+  "101111"
+]
+binaryClock("10:50:22") ➞ [
+  " 0 0 0",
+  " 01000",
+  "000011",
+  "101000"
+]
 
