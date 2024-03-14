@@ -225,3 +225,24 @@ nomNom([8, 5, 9]) ➞ [22]
 nomNom([6, 2, 8, 7]) ➞ [8, 8, 7] (pomimo tego, że 8>7 program nie wykonuje operacji zjadania ponieważ zakończył swoje działanie dla wartości 6 i 2)
 nomNom([1, 2, 3, 2, 1, 8]) ➞ [1, 2, 6, 8] (program rozpoczyna zjadanie od wartości 3, kończąc na 1)
 
+************************************************************************************************************************************
+
+12. Pierwsze Tryplety
+
+Trypletem liczb pierwszych nazwiemy grupę trzech liczb pierwszych których różnica między kolejnymi liczbami wynosi 6
+oraz suma najmniejszej liczby pierwszej (z tych trzech) powiększona o 18 to liczba złożona.
+
+Napisz funkcję które zwróci tablicę trypletów dla liczb z zakresu podanego przez użytkownika.
+
+Przykład:
+
+primeTriplets(1, 19) ➞ [7, 13, 19], ponieważ:
+7 + 6 = 13 + 6 = 19 oraz 7 + sumują się do 25 (liczba złożona)
+
+Przykłady do testowania programu:
+primeTriplets(5, 17) ➞ [ ] (NULL)
+// pomimo tego, że [5, 11, 17] to tryplet liczb pierwszych, to 5 + 18 = 23 -> nie jest liczbą złożoną
+primeTriplets(64, 88) ➞ [67, 73, 79]
+// 67 + 6 = 73 + 6 = 79 oraz 67 + 18 = 85
+
+
