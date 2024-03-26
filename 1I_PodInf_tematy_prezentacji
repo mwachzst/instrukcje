@@ -13,3 +13,13 @@ GR.7: Karty graficzne
 - Golak Jan
 - Jaworski Jarosław
 GR.8: Rodzaje chłodzenia + zasilanie
+
+Kolejność prezentacji:
+9.04 - Płyta główna + Chipset (GR.2)
+11.04 - Interfejsy + Podstawowe peryferia (GR.3)
+16.04 - Obudowy komputerowe (GR.1)
+18.04 - Procesory (GR.4)
+23.04 - GPU (GR.7)
+25.04 - Pamięc RAM i ROM (GR.5)
+14.05 - Dyski Twarde (GR.6)
+16.05 - Chłodzenie + zasilanie (GR.8)
