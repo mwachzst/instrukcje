@@ -298,7 +298,7 @@ Janusz jest właścicielem sklepu z dywanami. W swoim sklepie przydziela dywan d
 - poziomo symetryczny
 - pionowo symetryczny
 
-Niedoskonały dywan to taki, który nie jest symetryczny ani z pooziomie, ani w pionie. Przykładem niesymetrycznego dywanu jest tablica:
+Niedoskonały dywan to taki, który nie jest symetryczny ani w poziomie, ani w pionie. Przykładem niesymetrycznego dywanu jest tablica:
 [
   ["a", "a", "a", "a"],
   ["a", "a", "a", "a"],
