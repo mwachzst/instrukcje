@@ -287,3 +287,69 @@ binaryClock("10:50:22") ➞ [
   "101000"
 ]
 
+************************************************************************************************************************************
+
+14. Symetryczne wzory
+
+Janusz jest właścicielem sklepu z dywanami. W swoim sklepie przydziela dywan do jednej z czterech wykluczających się grup:
+
+- niedoskonały
+- doskonały
+- poziomo symetryczny
+- pionowo symetryczny
+
+Niedoskonały dywan to taki, który nie jest symetryczny ani z pooziomie, ani w pionie. Przykładem niesymetrycznego dywanu jest tablica:
+[
+  ["a", "a", "a", "a"],
+  ["a", "a", "a", "a"],
+  ["a", "a", "b", "b"]
+]
+Poniżej znajduje się dywanik o symetrii poziomej. Można "złożyć" dywan wokół hipotetycznej osi X i obie strony będą identyczne.
+Dywan symetryczny poziomo NIE JEST symetryczny pionowowo (wówczas byłby sklasyfikowany jako idealny). Przykład dywanu symetrycznie pionowego:
+[
+  ["c", "a", "a", "a"],
+  ["b", "b", "b", "b"],
+  ["c", "a", "a", "a"]
+]
+Poniżej znajduje się dywanik o symetrii pionowej. Można "złożyć" dywan wokół hipotetycznej osi Y i obie strony będą identyczne.
+Dywan symetryczny pionowo NIE JEST symetryczny poziomoi (wówczas byłby sklasyfikowany jako idealny). Przykład dywanu symetrycznie poziomego:
+[
+  ["a", "b", "a"],
+  ["b", "b", "b"],
+  ["a", "b", "a"],
+  ["a", "b", "a"]
+]
+Wreszcie, idealny dywan to taki, który jest symetryczny zarówno w pionie, jak i w poziomie. Oznacza to, że po złożeniu wzdłuż lub wszerz powstają dwie identyczne części:
+[
+  ["a", "b", "b", "a"],
+  ["b", "b", "b", "b"],
+  ["a", "b", "b", "a"]
+]
+
+Mając do dyspozycji tablicę duwymiarową (m x n) określ, czy jest on niedoskonały, symetryczny pionowo, symetryczny poziomo czy idealny.
+Przykłady do testowania poprawności działania programu:
+classifyRug([verti
+  ["a", "a"],
+  ["a", "a"]
+]) ➞ "idealny"
+
+classifyRug([
+  ["a", "a", "b"],
+  ["a", "a", "a"],
+  ["b", "a", "a"]
+]) ➞ "niedoskonały"
+
+classifyRug([
+  ["b", "a"],
+  ["b", "a"]
+]) ➞ "symetryczny poziomo"
+
+classifyRug([
+  ["a", "a"],
+  ["b", "b"]
+]) ➞ "symetryczny pionowo"
+
+*Dywan 1 x n można uznać za trywialnie symetryczny w poziomie, natomiast dywanik n x 1 za trywialnie symetryczny w pionie. Dywan 1 x 1 jest dywanem trywialnie doskonałym.
+
+
+
