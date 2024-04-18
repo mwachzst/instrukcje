@@ -11,7 +11,7 @@ Przykładowo dla liczby 39, aby "wydobyć" ostatnią cyfrę należy zastosować 
 
 W programie należy w kolejnych liniach wyświetlać wynik mnożenia oraz wartości zmiennych przechowujących nowe cyfry.
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 2. Sekwencja "ślepego zaułka":
 Funkcja przyjmuje dodatnią liczbę całkowitą podaną przez użytkownika (n). Zmienna s jest sumą poszczególnych cyfr w liczbie n. Jeżeli n jest podzielne przez s to kolejną
@@ -25,7 +25,7 @@ w wynikach obliczeń oraz ostatniej wartości zmiennej n która nie powtarza si�
 
 deadEnd(5) ➞ [5, 17632]
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 3. Szczęśliwe liczby:
 Dla podanej dodatniej liczby całkowitej możemy utworzyć nowe liczby na podstawie wzoru który sumuje kwadraty poszczególnych cyfr w liczbie. Przykładowo dla n=203 otrzymaną
@@ -50,7 +50,7 @@ is_happy(11) ➞ false ➞ "Liczba 11 jest nieszczęśliwa, ponieważ x -> y -> 
 
 is_happy(107) ➞ false ➞ "Liczba 107 jest nieszczęśliwa, ponieważ x -> y -> z -> ..."
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 4. Szczęśliwe liczby (wersja tablicowa):
 
@@ -90,7 +90,7 @@ portionHappy([0, 0, 0, 1, 1]) ➞ 1 (100%)
 portionHappy([1, 0, 0, 1, 1]) ➞ 0.8 (80%)
 
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 5. Punkty podparcia - wersja tablicowa
 
@@ -112,7 +112,7 @@ findFulcrum([9, 1, 9]) ➞ 1
 findFulcrum([7, -1, 0, -1, 1, 1, 2, 3]) ➞ 0
 findFulcrum([8, 8, 8, 8]) ➞ -1
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 6. Parowanie skarpetek
 
@@ -133,7 +133,7 @@ sockMerchant([10, 20, 20, 10, 10, 30, 50, 10, 20]) ➞ 3
 sockMerchant([50, 20, 30, 90, 30, 20, 50, 20, 90]) ➞ 4
 sockMerchant([]) ➞ 0
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 7. Powtarzający się cykl
 
@@ -162,7 +162,7 @@ isRepeatingCycle([1, 2, 3, 4, 2, 3, 1], 4) ➞ false
 isRepeatingCycle([1, 2, 1, 2, 2], 2) ➞ false
 isRepeatingCycle([1, 1, 1, 1], 3) ➞ true
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 8. Napisz program który będzie symulował grę w Blackjacka (oczko) dla dwóch osób. Gra polega na "losowaniu" (generowaniu liczb pseudolosowych) karty z talii kart,
 oraz dodaniu do wyniku gracza wartości tej karty. Zasadniem gracza jest uzyskanie jak najbliżej (ale nie więcej niż) 21 punktów. Zasady punktowania kart:
@@ -178,7 +178,7 @@ Wytyczne do programu:
 - Gry gracz przekroczy 21 punktów - wygrywa przeciwnik.
 - Gdy gracze mają poniżej 21 punktów - wygrywa ta osoba, która uzyskała wynik bliższy 21.
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 9. Napisz program który będzie symulował grę w "Wisielca" (ang. Hangman) dla dwóch osób. Gra polega na podaniu hasła przez gracza i odgadnięciu tego hasła przez
 gracza drugiego przy jednoczesnym podawaniu spółgłosek i samogłosek. Gra zmodyfikowana w następujący sposób:
@@ -191,7 +191,7 @@ gracza drugiego przy jednoczesnym podawaniu spółgłosek i samogłosek. Gra zmo
 Y punktów zależne od brakujących liter. 
 - Wyświetl w programie za pomocą funkcji (modułu) instrukcje do gry oraz wyświetl nazwę gry stosując ASCII generator tekstu (np. https://patorjk.com/software/taag/#p=display&f=Graffiti&t=Type%20Something%20)
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 10. Napisz program który będzie symulował grę kośćmi a'la Poker. Gra polega na jednoczesnym rzucie pięcioma kostkami do gry (oczka od 1 do 6) i przeznaczona jest dla dwóch graczy.
 Zasady gry:
@@ -206,7 +206,8 @@ kostek (np. z pięciu kostek trzy wylosowały 5 oczek -> gracz otrzymuje 5*2 = 1
 - Program po decyzjach gracza drugiego wyświetla ostateczny wynik obu graczy, oraz który gracz zwyciężył
 - Zastosuj w programie funkcje system("cls") aby zwiększyć czytelność wyświetlanych wyników
 
-************************************************************************************************************************************
+***************************************************************************************************
+
 11. Seven Ate Nine
 
 Liczba całkowita znajdująca się w komórce tablicy jednowymiarowej może "zjeść" liczbę po swojej prawej stronie jeżeli ta liczba jest mniejsza od badanej.
@@ -225,7 +226,7 @@ nomNom([8, 5, 9]) ➞ [22]
 nomNom([6, 2, 8, 7]) ➞ [8, 8, 7] (pomimo tego, że 8>7 program nie wykonuje operacji zjadania ponieważ zakończył swoje działanie dla wartości 6 i 2)
 nomNom([1, 2, 3, 2, 1, 8]) ➞ [1, 2, 6, 8] (program rozpoczyna zjadanie od wartości 3, kończąc na 1)
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 12. Pierwsze Tryplety
 
@@ -245,7 +246,7 @@ primeTriplets(5, 17) ➞ [ ] (NULL)
 primeTriplets(64, 88) ➞ [67, 73, 79]
 // 67 + 6 = 73 + 6 = 79 oraz 67 + 18 = 85
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 13. Zegar binarny
 
@@ -287,7 +288,7 @@ binaryClock("10:50:22") ➞ [
   "101000"
 ]
 
-************************************************************************************************************************************
+***************************************************************************************************
 
 14. Symetryczne wzory
 
@@ -351,5 +352,18 @@ classifyRug([
 
 *Dywan 1 x n można uznać za trywialnie symetryczny w poziomie, natomiast dywanik n x 1 za trywialnie symetryczny w pionie. Dywan 1 x 1 jest dywanem trywialnie doskonałym.
 
+***************************************************************************************************
 
+15. Skacząca żaba
+
+Żaba chce przeskoczyć przez rzekę. Niestety nie potrafi przeskoczyć jednym skokiem. Na szczęście na rzece jest n ilość kamieni.
+Żaba może przeskoczyć z pobliskiego przegu do kamienia 1 i z kamienia "n" do dalekiego brzegu. Potrafi również skakać z kamienia na kamień, do przodu i do tyłu.
+Jednakże, na każdym kamieniu "i" jest zapisana liczba "j" i żaba musi przeskoczyć dokładnie "j" liczbę kamieni do tyłu lub do przodu (wartości ujemne oznaczają skok do tyłu).
+Napisz program który zwróci minimalną liczbę skoków do przekroczenia rzeki, włączając w to skoki z brzegu do pierwszego kamienia i z ostatniego kamienia (lub innego kamienia, jeżeli jest to możliwe) na daleki brzeg. Program (funkcja) powinien zwrócić 0 jeśli nie jest możliwe przekroczenie rzeki.
+
+Przykłady do testowania poprawności działania programu:
+
+jumpingFrog(5, [1, 1, 1, 1, 1]) ➞ 6
+jumpingFrog(5, [1, 3, 1, 1, 1]) ➞ 4
+jumpingFrog(5, [1, 1, 0, 1, 1]) ➞ 0
 
