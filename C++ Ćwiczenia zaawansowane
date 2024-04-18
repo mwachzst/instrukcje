@@ -366,4 +366,21 @@ Przykłady do testowania poprawności działania programu:
 jumpingFrog(5, [1, 1, 1, 1, 1]) ➞ 6
 jumpingFrog(5, [1, 3, 1, 1, 1]) ➞ 4
 jumpingFrog(5, [1, 1, 0, 1, 1]) ➞ 0
+jumpingFrog(4, [6, 0, 5, 1) ➞ 2
 
+***************************************************************************************************
+
+16. Kolizja asteroid
+
+Dysponujesz w programie tablicą jednowymiarową składającą się z liczb całkowitych reprezentującą asteroidy ustawione w rzędzie.
+Dla każdej asteroidy "i " w tablicy przypisana jest wielkość "k", a znak reprezentuje jej kierunek (wartości dodatnie oznaczają, że asteroida porusza się w prawo, ujemne oznaczają poruszanie się w lewo). Każda asteroida porusza się z tą samą prędkością.
+
+Zwróc w programie stan asteroid po wszystkich kolizjach. Jeśli dwie asteroidy spotkają się, to mniejsza eksploduje (w jej miejsce "wskakuje" asteroida większa). Jeśli obie są tego samego rozmiaru, to obie eksplodują. Dwie asteroidy poruszające się w tym samym kierunku nigdy się nie spotkają.
+
+Przykłady do testowania poprawności działania programu:
+
+asteroidCollision([-2, -1, 1, 2]) ➞ [-2, -1, 1, 2]
+asteroidCollision([-2, 1, 1, -2]) ➞ [-2, -2]
+asteroidCollision([1, 1, -2, -2]) ➞ [-2, -2]
+asteroidCollision([10, 2, -5]) ➞ [10]
+asteroidCollision([8, -8]) ➞ []
