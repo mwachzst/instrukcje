@@ -306,14 +306,14 @@ Niedoskonały dywan to taki, który nie jest symetryczny ani w poziomie, ani w p
   ["a", "a", "b", "b"]
 ]
 Poniżej znajduje się dywanik o symetrii poziomej. Można "złożyć" dywan wokół hipotetycznej osi X i obie strony będą identyczne.
-Dywan symetryczny poziomo NIE JEST symetryczny pionowowo (wówczas byłby sklasyfikowany jako idealny). Przykład dywanu symetrycznie pionowego:
+Dywan symetryczny poziomo NIE JEST symetryczny pionowowo (wówczas byłby sklasyfikowany jako idealny). Przykład dywanu symetrycznie poziomego:
 [
   ["c", "a", "a", "a"],
   ["b", "b", "b", "b"],
   ["c", "a", "a", "a"]
 ]
 Poniżej znajduje się dywanik o symetrii pionowej. Można "złożyć" dywan wokół hipotetycznej osi Y i obie strony będą identyczne.
-Dywan symetryczny pionowo NIE JEST symetryczny poziomoi (wówczas byłby sklasyfikowany jako idealny). Przykład dywanu symetrycznie poziomego:
+Dywan symetryczny pionowo NIE JEST symetryczny poziomoi (wówczas byłby sklasyfikowany jako idealny). Przykład dywanu symetrycznie pionowego:
 [
   ["a", "b", "a"],
   ["b", "b", "b"],
