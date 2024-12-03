@@ -440,3 +440,29 @@ x = 32526431
 
 Remis 2:2
 
+***************************************************************************************************
+
+18. Suma zamknięcia
+
+Napisz funkcję która zwróci sumę LICZB uformowanych przez pierwsze i ostatnie CYFRY, aż do środka liczby. 
+Podpowiedź: Nie istnieje gotowa funkcja w C++ która łączy cyfry w liczbę. Trzeba zastosować instrukcję która w umiejętny sposób wyznaczy część dziesiętną/jedności na podstawie badanej cyfry
+
+closingInSum("2520") ➞ 72
+// Pierwsza cyfra to 2, ostatnia to 0
+// 2 i 0 dają 20
+// Druga cyfra to 5, przedostatnia to 2
+// 5 i 2 dają 52
+
+// 20 + 52 = 72
+
+Przykłady do testowania poprawności działania programu:
+
+closingInSum("121") ➞ 13
+// 11 + 2
+
+closingInSum("1039") ➞ 22
+// 19 + 3
+
+closingInSum("22225555") ➞ 100
+// 25 + 25 + 25 + 25
+
