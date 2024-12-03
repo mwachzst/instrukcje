@@ -385,3 +385,58 @@ asteroidCollision([-2, 1, 1, -2]) ➞ [-2, -2]
 asteroidCollision([1, 1, -2, -2]) ➞ [-2, -2]
 asteroidCollision([10, 2, -5]) ➞ [10]
 asteroidCollision([8, -8]) ➞ []
+
+***************************************************************************************************
+
+17. Bitwa cyfer
+
+Napisz program w którym zadeklarujesz zmienną typu całkowitego. Następnie w programie przez pętlę będa porównywane poszczególne pary cyfr w utworzonej zmiennej w nastepujący sposób:
+Zakładając, że "j" oznacza ilość cyfr w zmiennej typu całkowitego, a "i" to pierwsza cyfra w zmiennej:
+- i <-> j
+- i+1 <-> j-1
+- i+2 <-> j-2
+...
+Każde porównanie par ma na celu wyłonić zwycięzcę rundy - cyfrę większą od drugiej. Każdy wynik rundy przyczynia się do wyniku ostatecznego - zwycięzkie rundy lewej części liczby (licząc od środka) oraz zwycięzkie rundy prawej części liczby (licząc od środka). W przypadku gdy w parze
+obie cyfry mają taką samą wartość, wówczas obie strony przegrywają aktualną rundę (dzieje się to również w sytuacji, gdy "schodząc do środka" w zmiennej typu całkowitego trafimy na sytuację, w ktrórej w parze mamy tą samą cyfrę - nieparzysta ilość cyfr w zmiennej).
+
+Napisz w programie funkcję która przyjmie następujące argumenty:
+- zmienną typu całkowitego
+- znak 'l' lub 'p' 
+a następnie funkcja zwróci wynik jako ilość zwycięskich rund z lewej/prawej strony od środka wyrazu (wybór określany przez 'l' - lewa lub 'p' - prawa)
+
+Porównaj wyniki obu wywołań funkcji (dla 'l' i 'p') i wyświetl na ekranie wynik w postaci "Wygrywa lewa/prawa strona wynikiem X:Y" lub "Remis X:Y"
+
+Przykłady do testowania poprawności działania programu:
+
+x = 29659
+
+2 i 9 = 0 / 1
+9 i 5 = 1 / 1
+6 i 6 = 1 / 1 -> pętla zakończona
+Remis 1:1
+
+x = 995498
+
+9 i 8 = 1 / 0
+9 i 9 = 1 / 0
+5 i 4 = 2 / 0
+Wygrywa lewa strona wynikiem 2:0
+
+x = 578921445
+
+5 i 5 = 0 / 0
+7 i 4 = 1 / 0
+8 i 4 = 2 / 0
+9 i 1 = 3 / 0
+2 i 2 (ten sam indeks) -> pętla zakończona
+Wygrywa lewa strona 3:0
+
+x = 32526431
+
+3 i 1 = 1 / 0
+2 i 3 = 1 / 1
+5 i 4 = 2 / 1
+2 i 6 = 2 / 2
+
+Remis 2:2
+
