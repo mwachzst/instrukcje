@@ -233,7 +233,7 @@ nomNom([1, 2, 3, 2, 1, 8]) ➞ [1, 2, 6, 8] (program rozpoczyna zjadanie od wart
 Trypletem liczb pierwszych nazwiemy grupę trzech liczb pierwszych których różnica między kolejnymi liczbami wynosi 6
 oraz suma najmniejszej liczby pierwszej (z tych trzech) powiększona o 18 to liczba złożona.
 
-Napisz funkcję które zwróci tablicę trypletów dla liczb z zakresu podanego przez użytkownika.
+Napisz funkcję która wyświetli tryplety dla liczb z zakresu podanego przez użytkownika.
 
 Przykład:
 
