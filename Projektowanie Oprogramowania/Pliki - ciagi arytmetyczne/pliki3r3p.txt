@@ -1,0 +1,24 @@
+Ciąg liczb całkowitych nazywamy ciągiem arytmetycznym, jeśli różnica między każdymi dwoma kolejnymi jego wyrazami jest identyczna. Ciągiem arytmetycznym jest na przykład ciąg (1, 3, 5, 7, 9). Jest to ciąg o różnicy 2, ponieważ każdy wyraz tego ciągu, poza pierwszym, różni się od poprzedniego wyrazu o 2. Ciąg (17, 22, 27, 32, 37) jest ciągiem arytmetycznym o różnicy 5. W tym zadaniu rozpatrujemy tylko takie ciągi arytmetyczne, które mają
+dodatnią różnicę oraz co najmniej pięć wyrazów.
+W pliku ciagi.txt danych jest 100 ciągów składających się z liczb całkowitych dodatnich, nieprzekraczających 1 000 000. Każdy ciąg opisany jest w dwóch wierszach: pierwszy zawiera liczbę wyrazów ciągu (co najmniej 5 i co najwyżej 1000), zaś drugi — kolejne wyrazy ciągu, oddzielone pojedynczymi odstępami. Dla przykładu pierwsze cztery wiersze pliku mają następującą postać:
+5
+1 3 6 7 9
+5
+17 22 27 32 37 
+
+ZADANIE 1
+Podaj, ile spośród podanych w pliku ciagi.txt ciągów jest ciągami arytmetycznymi.
+Znajdź wśród nich ciąg o największej różnicy i oblicz jego różnicę. Liczbę ciągów arytmetycznych oraz największą różnicę zapisz w pliku wynik1.txt. 
+
+ZADANIE 2
+Dla każdego podanego ciągu znajdź — jeśli istnieje — największą występującą w nim liczbę, która jest pełnym sześcianem jakiejś liczby naturalnej (w pierwszym z przykładowych ciągów jest to 1 = 13 , w drugim — 27 = 33).
+Znalezione liczby (po jednej dla każdego ciągu, w którym taka liczba występuje) zapisz w pliku wynik2.txt, w kolejności zgodnej z kolejnością ciągów, z których pochodzą.
+
+ZADANIE 3
+Plik bledne.txt ma identyczną strukturę jak ciagi.txt, ale zawiera tylko 20 ciągów. Wiadomo jednak, że wszystkie występujące w nim ciągi są ciągami arytmetycznymi z jednym
+błędem: jeden z wyrazów w każdym ciągu został zastąpiony przez liczbę naturalną nienależącą do ciągu. Dla każdego ciągu znajdź i wypisz błędny wyraz. Odpowiedzi zapisz w pliku wynik3.txt, podając dla każdego ciągu błędną liczbę w osobnym wierszu, w kolejności zgodnej z kolejnością ciągów w pliku wejściowym. 
+
+ 
+
+
+
