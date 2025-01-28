@@ -1,0 +1,10 @@
+Imię     Nazwisko        Indeks    Oceny
+Adam     Rymski          71711     4    5    3
+Tomasz   Filipiuk        71745     4    4
+Karol    Effimenko       101023    4    3
+Anna     Nowak           71791     3.5  5    5    5
+Michał   Korsakow        71921     3.5  3.5  3
+Henryk   Wojciechowski   71710     3    3    2
+Michał   Cierń           71717     4.5  4    5
+Marcin   Kozak           71729     4    4.5  4.5
+Ewa      Tomaszewska     71733     4    4.5  5
