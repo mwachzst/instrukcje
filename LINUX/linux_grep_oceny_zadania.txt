@@ -1,0 +1,21 @@
+1. Wyświetl studentów, którzy uzyskali ocenę 4.5
+2. Wyświetl studentów, którzy nie uzyskali żadnej oceny 4.5
+3. Wyświetl studentów, których nazwiska zaczynają się na literę z drugiej połowy alfabetu
+4. Wyświetl studentów, których nazwiska nie zawierają litery a
+5. Wyświetl studentów, których numer indeksu zaczyna się i kończy na cyfrę 7
+6. Wyświetl studentów, którzy uzyskali ocenę 3.5 jako ostatnią
+7. Wyświetl studentów, którzy uzyskali ocenę przynajmniej jedną 5 i mają na imię Tomasz
+8. Wyświetl studentów, których nazwisko ma co najmniej 9 liter i zawiera literę "z"
+9. Wyświetl studentów, których nazwisko kończy się na samogłoskę i ma co najmniej 7 liter
+10. Wyświetl studentów, których numer indeksu zawiera przynajmniej jedną cyfrę parzystą i jedną nieparzystą
+11. Wyświetl studentów, których numer indeksu zawiera cyfry 3, 4, 5 przynajmniej raz (3 ma wystąpić przynajmniej raz, 4 ma wystąpić przynajmniej raz, 5 ma wystąpić przynajmniej raz)
+12. Wyświetl studentów, którzy mają nazwisko zaczynające się na literę „K” lub „L”, lub imię zaczyna się na "T" i posiadają numer indeksu który zaczyna się na cyfrę 7
+13. Wyświetl studentów, którzy mają co najmniej jedną ocenę 3 i żadnej oceny 4
+
+Podpowiedzi do zadań:
+
+{n,} oznacza co najmniej n powtórzeń, np. {9,} oznacza co najmniej 9 powtórzeń (ale może być ich więcej!)
+{n,m} oznacza od n do m powtórzeń, np. {9,12} oznacza od 9 do 12 powtórzeń.
+{n} oznacza dokładnie n powtórzeń, np. {9} oznacza dokładnie 9 powtórzeń.
+
+grep ... | grep ... - wyświetla linie dla których spełnione są oba warunki grep (w przypadku tego zapisu operator "|" oznacza ŁĄCZENIE poleceń)
