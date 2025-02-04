@@ -1,0 +1,13 @@
+Imię     Nazwisko        Indeks    Oceny
+Jan      Kowalski        81234     3    4    5
+Piotr    Nowicki         92345     4    4.5  5
+Kamil    Lisowski        74567     3    2    4
+Agnieszka Wójcik         81256     5    4.5
+Marek    Zawadzki        63219     4    4    3.5
+Ewelina  Grabowska       98345     2    3    4
+Dariusz  Michalski       81423     3.5  4    3
+Tomasz   Szymański       71788     4    5    5
+Marta    Jankowska       81277     4.5  4    3.5
+Łukasz   Kubiak          70123     3.5  2    5
+Katarzyna Zielińska      90234     4    4    3
+Mateusz  Urbanek         62319     3    3.5  5
