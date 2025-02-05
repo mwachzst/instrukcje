@@ -6,11 +6,6 @@
 6. Wyświetl studentów, którzy uzyskali ocenę 3.5 jako ostatnią
 7. Wyświetl studentów, którzy uzyskali ocenę przynajmniej jedną 5 i mają na imię Tomasz
 8. Wyświetl studentów, których nazwisko ma co najmniej 9 liter i zawiera literę "z"
-9. Wyświetl studentów, których nazwisko kończy się na samogłoskę i ma co najmniej 7 liter
-10. Wyświetl studentów, których numer indeksu zawiera przynajmniej jedną cyfrę parzystą i jedną nieparzystą
-11. Wyświetl studentów, których numer indeksu zawiera cyfry 3, 4, 5 przynajmniej raz (3 ma wystąpić przynajmniej raz, 4 ma wystąpić przynajmniej raz, 5 ma wystąpić przynajmniej raz)
-12. Wyświetl studentów, którzy mają nazwisko zaczynające się na literę „K” lub „L”, lub imię zaczyna się na "T" i posiadają numer indeksu który zaczyna się na cyfrę 7
-13. Wyświetl studentów, którzy mają co najmniej jedną ocenę 3 i żadnej oceny 4
 
 Podpowiedzi do zadań:
 
