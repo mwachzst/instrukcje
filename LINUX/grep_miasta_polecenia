@@ -1,0 +1,19 @@
+Wykorzystując plik miasta.txt (jest na githubie o tej samej nazwie) wykonać następujące ćwiczenia:
+
+·        Napisać polecenie, które wyświetli wszystkie miasta, których w nazwie występuje tekst “dom”
+
+·        Wyświetlić na ekran wszystkie miasta, których nazwa jest dwu (lub więcej) członowa.
+
+·        Powyższą listę posortować wg nazwy i wyświetlić na ekran tylko ostatnie 5 pozycji.
+
+·        Policz znaki występujące w nazwie dowolnego pliku lub katalogu.
+
+·        Ile miast zawiera na początku litery “W”, a na końcu “w” lub “a”. A ile miast nie spełnia tego warunku?
+
+·        Wyszukaj wszystkie miasta, których nazwa zaczyna się na: War, Wro lub Wie.
+
+·        Wyszukaj w katalogu /home/ee/stud wszystkie katalogi, których nazwa zaczyna się na “kow”.
+
+·        Wyszukaj w katalogu /etc wszystkie pliki, których nazwa zaczyna się na “host”.
+
+·        Wyszukaj w katalogu /home/ee/stud wszystkie katalogi, do których wszyscy użytkownicy systemu mają pełne prawa.
