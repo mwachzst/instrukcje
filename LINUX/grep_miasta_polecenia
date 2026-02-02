@@ -1,3 +1,5 @@
+WPISZ W TERMINALU POLECENIE: sed -i 's/\r$//' miasta.txt -> polecenie to naprawia białe znaki w każdej linii, przez co wyświetlanie grepa jest poprawne
+
 Wykorzystując plik miasta.txt (jest na githubie o tej samej nazwie) wykonać następujące ćwiczenia:
 
 ·        Napisać polecenie, które wyświetli wszystkie miasta, których w nazwie występuje tekst “dom”
