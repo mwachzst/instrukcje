@@ -1,0 +1,10 @@
+1. Wyświetl wszystkich studentów, którzy uzyskali ocenę 2
+2. Wyświetl studentów, którzy nie uzyskali żadnej oceny 2
+3. Wyświetl studentów, których imiona zaczynają się na M
+4. Wyświetl studentów, których imiona zaczynają się na M lub A
+5. Wyświetl studentów, których nazwiska zaczynają się na literę z pierwszej połowy alfabetu
+6. Wyświetl studentów, których nazwiska nie zawierają litery "k"
+7. Wyświetl studentów, których numer indeksu jest sześciocyfrowy
+8. Wyświetl studentów, którzy uzyskali ocenę 5 jako ostatnią
+9. Wyświetl studentów, którzy uzyskali ocenę 5 jako przedostatnią
+10. Wyświetl studentów, którzy uzyskali ocenę przynajmniej jedną 3 i mają na imię Michał
