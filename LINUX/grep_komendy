@@ -87,3 +87,33 @@ Pokazuje linie niepasujące.
 Przykład:
 grep -v '4\.5' students.txt
 Studenci bez oceny 4.5
+
+1️⃣2️⃣ [^ ] — negacja zbioru (zaprzeczenie)
+Jeśli pierwszy znak w nawiasie kwadratowym to ^, oznacza to dowolny znak oprócz podanych
+Przykłady:
+grep -E '[^a]' students.txt
+Linia zawiera przynajmniej jeden znak inny niż „a”.
+
+grep -E '^[^A]' students.txt
+Linia nie zaczyna się wielką literą A.
+
+grep -E ' [^0-9]' students.txt
+Po spacji występuje znak, który nie jest cyfrą.
+
+1️⃣3️⃣ \b — granica słowa
+Oznacza początek lub koniec słowa.
+Przykład:
+grep -E '\b5\b' students.txt
+Dopasuje tylko samodzielną ocenę 5, ale nie dopasuje 3.5 ani 50.
+
+1️⃣4️⃣ Łączenie warunków potokiem | (pipe w terminalu) -> Nie mylić z | w regex!
+Znak | może być użyty jako łączenie komend np. grep '3' students.txt | grep -v '4' 
+LUB
+jako alternatywa w przypadku jednego wzorca np. grep -E 'Adam|Anna' students.txt
+Przykład:
+grep '3' students.txt | grep -v '4'
+Najpierw wybierz z 3, potem usuń te z 4.
+
+1️⃣5️⃣ -c — policz dopasowania
+grep -c '5' students.txt
+Zwraca liczbę linii zawierających 5.
