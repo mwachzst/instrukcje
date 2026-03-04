@@ -1,0 +1,89 @@
+grep -E 'wzorzec' students.txt
+
+-E → włącza rozszerzone wyrażenia regularne (możemy używać +, {}, |, () bez dodatkowych znaków ucieczki).
+
+1️⃣ . (kropka)
+Znaczenie: dowolny jeden znak
+Przykład: grep '4.5' students.txt
+Dopasuje: 4.5 ale też np. 4a5 (bo . to dowolny znak!)
+Jeśli chcemy prawdziwą kropkę: grep '4\.5' students.txt
+\. → oznacza dosłownie kropkę
+
+2️⃣ [ ] (klasa znaków)
+Znaczenie: jeden znak ze zbioru
+Przykłady: 
+grep '[ABC]' students.txt -> Linia zawiera A lub B lub C
+grep '[0-9]' students.txt -> Linia zawiera dowolną cyfrę
+grep '[a-z]' students.txt -> Mała litera od a do z
+
+🔹 Zaprzeczenie w zbiorze
+grep '[^a]' students.txt
+^ w nawiasie oznacza: dowolny znak oprócz „a”
+
+3️⃣ * (gwiazdka)
+Znaczenie: 0 lub więcej powtórzeń
+Przykład:
+grep '7[0-9]*' students.txt
+Dopasuje:
+7
+71
+71711
+700000
+Bo [0-9]* może wystąpić 0 lub więcej razy.
+
+4️⃣ + (plus)
+
+Znaczenie: 1 lub więcej powtórzeń
+Przykład:
+grep -E '[0-9]+' students.txt
+Dopasuje liczby o długości co najmniej 1 cyfry.
+Różnica:
+* → może być 0
++ → musi być przynajmniej 1
+
+5️⃣ ? (znak zapytania)
+Znaczenie: 0 lub 1 raz
+Przykład:
+grep -E '3\.?5' students.txt
+Dopasuje:
+35
+3.5
+Bo \.? oznacza: kropka może być albo jej nie być.
+
+6️⃣ { } (klamry – liczba powtórzeń)
+Przykłady:
+grep -E '[0-9]{6}' students.txt
+Dokładnie 6 cyfr (np. numer indeksu)
+
+grep -E '[A-Za-z]{9,}' students.txt
+Co najmniej 9 liter
+
+grep -E '[0-9]{2,4}' students.txt
+Od 2 do 4 cyfr
+
+7️⃣ ^ (początek linii)
+Przykład:
+grep '^Adam' students.txt
+Linia zaczyna się od „Adam”
+
+8️⃣ $ (koniec linii)
+Przykład:
+grep '3\.5$' students.txt
+Linia kończy się na 3.5
+
+9️⃣ ( ) (grupowanie)
+Pozwala łączyć warunki.
+Przykład:
+grep -E '^(Adam|Anna)' students.txt
+Linia zaczyna się od Adam lub Anna
+
+🔟 | (alternatywa – „lub”)
+Przykład:
+grep -E 'Kowalski|Nowak' students.txt
+Nazwisko Kowalski lub Nowak
+
+1️⃣1️⃣ grep -v
+Pokazuje linie niepasujące.
+Przykład:
+grep -v '4\.5' students.txt
+Studenci bez oceny 4.5
